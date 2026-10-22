@@ -1,0 +1,376 @@
+Wild.png
+size:2012,2012
+filter:Linear,Linear
+pma:true
+Fire_fx/Comp 1_00007
+bounds:1610,2,279,400
+offsets:47,0,400,400
+Green_Fire_Fx/Comp 1_00000
+bounds:2,1610,400,400
+Green_Fire_Fx/Comp 1_00001
+bounds:2,1208,400,400
+Green_Fire_Fx/Comp 1_00002
+bounds:404,1610,400,400
+Green_Fire_Fx/Comp 1_00003
+bounds:2,806,400,400
+Green_Fire_Fx/Comp 1_00004
+bounds:404,1208,400,400
+Green_Fire_Fx/Comp 1_00005
+bounds:806,1610,400,400
+Green_Fire_Fx/Comp 1_00006
+bounds:2,404,400,400
+Green_Fire_Fx/Comp 1_00007
+bounds:404,806,400,400
+Green_Fire_Fx/Comp 1_00008
+bounds:806,1208,400,400
+Green_Fire_Fx/Comp 1_00009
+bounds:1208,1610,400,400
+Green_Fire_Fx/Comp 1_00010
+bounds:2,2,400,400
+Green_Fire_Fx/Comp 1_00011
+bounds:404,404,400,400
+Green_Fire_Fx/Comp 1_00012
+bounds:806,806,400,400
+Green_Fire_Fx/Comp 1_00013
+bounds:1208,1208,400,400
+Green_Fire_Fx/Comp 1_00014
+bounds:1610,1610,400,400
+Green_Fire_Fx/Comp 1_00015
+bounds:404,2,400,400
+Green_Fire_Fx/Comp 1_00016
+bounds:806,404,400,400
+Green_Fire_Fx/Comp 1_00017
+bounds:1208,806,400,400
+Green_Fire_Fx/Comp 1_00018
+bounds:1610,1208,400,400
+Green_Fire_Fx/Comp 1_00019
+bounds:806,2,400,400
+Green_Fire_Fx/Comp 1_00020
+bounds:1208,404,400,400
+Green_Fire_Fx/Comp 1_00021
+bounds:1610,806,400,400
+Green_Fire_Fx/Comp 1_00022
+bounds:1208,2,400,400
+Green_Fire_Fx/Comp 1_00023
+bounds:1610,404,400,400
+
+Wild_2.png
+size:1922,2011
+filter:Linear,Linear
+pma:true
+Fire_fx/Comp 1_00000
+bounds:277,805,268,397
+offsets:56,0,400,400
+rotate:90
+Fire_fx/Comp 1_00001
+bounds:1209,1086,269,361
+offsets:56,0,400,400
+rotate:90
+Fire_fx/Comp 1_00002
+bounds:685,840,272,365
+offsets:54,0,400,400
+Fire_fx/Comp 1_00003
+bounds:1646,1368,274,374
+offsets:53,0,400,400
+Fire_fx/Comp 1_00004
+bounds:1209,1357,273,384
+offsets:53,0,400,400
+Fire_fx/Comp 1_00005
+bounds:835,1617,276,392
+offsets:50,0,400,400
+Fire_fx/Comp 1_00006
+bounds:2,1208,279,399
+offsets:48,0,400,400
+Fire_fx/Comp 1_00008
+bounds:2,1609,279,400
+offsets:45,0,400,400
+Fire_fx/Comp 1_00009
+bounds:283,1609,276,400
+offsets:47,0,400,400
+Fire_fx/Comp 1_00010
+bounds:2,806,273,400
+offsets:48,0,400,400
+Fire_fx/Comp 1_00011
+bounds:283,1337,270,400
+offsets:51,0,400,400
+rotate:90
+Fire_fx/Comp 1_00012
+bounds:1515,1744,265,400
+offsets:56,0,400,400
+rotate:90
+Fire_fx/Comp 1_00013
+bounds:283,1075,260,400
+offsets:61,0,400,400
+rotate:90
+Fire_fx/Comp 1_00014
+bounds:685,1207,261,400
+offsets:60,0,400,400
+Fire_fx/Comp 1_00015
+bounds:1113,1743,266,400
+offsets:57,0,400,400
+rotate:90
+Fire_fx/Comp 1_00016
+bounds:561,1609,272,400
+offsets:53,0,400,400
+Fire_fx/Comp 1_00017
+bounds:2,404,269,400
+offsets:54,0,400,400
+Fire_fx/Comp 1_00018
+bounds:2,2,267,400
+offsets:54,0,400,400
+Fire_fx/Comp 1_00019
+bounds:273,540,263,400
+offsets:55,0,400,400
+rotate:90
+Fire_fx/Comp 1_00020
+bounds:948,1215,259,400
+offsets:58,0,400,400
+Fire_fx/Comp 1_00021
+bounds:1124,829,255,395
+offsets:65,0,400,400
+rotate:90
+Fire_fx/Comp 1_00022
+bounds:273,284,254,396
+offsets:68,0,400,400
+rotate:90
+Fire_fx/Comp 1_00023
+bounds:271,21,261,396
+offsets:62,0,400,400
+rotate:90
+WILD_TEXT
+bounds:1572,989,374,160
+offsets:1,1,376,171
+rotate:90
+WILD_TEXT/1
+bounds:1521,826,374,161
+offsets:1,2,376,171
+WILD_TEXT/10
+bounds:1484,1365,376,160
+offsets:0,1,376,171
+rotate:90
+WILD_TEXT/11
+bounds:675,427,376,160
+offsets:0,1,376,171
+rotate:90
+WILD_TEXT/12
+bounds:1002,338,376,160
+offsets:0,1,376,171
+WILD_TEXT/13
+bounds:1380,664,376,160
+offsets:0,1,376,171
+WILD_TEXT/14
+bounds:1380,338,376,160
+offsets:0,1,376,171
+WILD_TEXT/15
+bounds:1758,448,376,161
+offsets:0,1,376,171
+rotate:90
+WILD_TEXT/16
+bounds:959,837,376,163
+offsets:0,0,376,171
+rotate:90
+WILD_TEXT/17
+bounds:1734,990,376,163
+offsets:0,0,376,171
+rotate:90
+WILD_TEXT/18
+bounds:837,459,376,163
+offsets:0,0,376,171
+rotate:90
+WILD_TEXT/19
+bounds:1002,665,376,162
+offsets:0,1,376,171
+WILD_TEXT/20
+bounds:1002,175,376,161
+offsets:0,2,376,171
+WILD_TEXT/21
+bounds:1380,175,376,161
+offsets:0,2,376,171
+WILD_TEXT/22
+bounds:1002,12,376,161
+offsets:0,2,376,171
+WILD_TEXT/23
+bounds:1380,12,376,161
+offsets:0,2,376,171
+WILD_TEXT/5
+bounds:1758,70,376,161
+offsets:0,2,376,171
+rotate:90
+WILD_TEXT/53
+bounds:837,83,374,163
+offsets:2,0,376,171
+rotate:90
+WILD_TEXT/54
+bounds:671,51,374,163
+offsets:2,0,376,171
+rotate:90
+WILD_TEXT/58
+bounds:1002,500,375,163
+offsets:1,0,376,171
+WILD_TEXT/59
+bounds:1379,500,375,162
+offsets:1,0,376,171
+
+Wild_3.png
+size:1949,1301
+filter:Linear,Linear
+pma:true
+WILD_TEXT/2
+bounds:1464,549,374,161
+offsets:1,2,376,171
+rotate:90
+WILD_TEXT/24
+bounds:653,547,375,160
+offsets:1,3,376,171
+rotate:90
+WILD_TEXT/25
+bounds:814,924,375,160
+offsets:1,3,376,171
+rotate:90
+WILD_TEXT/26
+bounds:1787,925,374,160
+offsets:2,3,376,171
+rotate:90
+WILD_TEXT/27
+bounds:1506,10,374,160
+offsets:2,3,376,171
+WILD_TEXT/28
+bounds:1785,174,373,159
+offsets:3,3,376,171
+rotate:90
+WILD_TEXT/29
+bounds:1788,550,373,159
+offsets:3,3,376,171
+rotate:90
+WILD_TEXT/3
+bounds:164,546,375,161
+offsets:1,2,376,171
+rotate:90
+WILD_TEXT/30
+bounds:1624,173,374,159
+offsets:2,3,376,171
+rotate:90
+WILD_TEXT/31
+bounds:1627,549,374,159
+offsets:2,3,376,171
+rotate:90
+WILD_TEXT/32
+bounds:1138,924,375,159
+offsets:1,3,376,171
+rotate:90
+WILD_TEXT/33
+bounds:977,170,375,159
+offsets:1,3,376,171
+rotate:90
+WILD_TEXT/34
+bounds:1138,170,375,159
+offsets:0,3,376,171
+rotate:90
+WILD_TEXT/35
+bounds:1139,547,375,159
+offsets:0,3,376,171
+rotate:90
+WILD_TEXT/36
+bounds:653,170,375,160
+offsets:0,2,376,171
+rotate:90
+WILD_TEXT/37
+bounds:815,547,375,160
+offsets:0,2,376,171
+rotate:90
+WILD_TEXT/38
+bounds:976,924,375,160
+offsets:0,2,376,171
+rotate:90
+WILD_TEXT/39
+bounds:1299,924,375,159
+offsets:0,2,376,171
+rotate:90
+WILD_TEXT/4
+bounds:325,924,375,161
+offsets:1,2,376,171
+rotate:90
+WILD_TEXT/40
+bounds:815,170,375,160
+offsets:0,1,376,171
+rotate:90
+WILD_TEXT/41
+bounds:164,169,375,161
+offsets:0,0,376,171
+rotate:90
+WILD_TEXT/42
+bounds:327,547,375,161
+offsets:1,0,376,171
+rotate:90
+WILD_TEXT/43
+bounds:977,547,375,160
+offsets:1,0,376,171
+rotate:90
+WILD_TEXT/44
+bounds:1299,170,375,159
+offsets:1,1,376,171
+rotate:90
+WILD_TEXT/45
+bounds:488,924,375,161
+offsets:1,0,376,171
+rotate:90
+WILD_TEXT/46
+bounds:327,170,375,161
+offsets:1,0,376,171
+rotate:90
+WILD_TEXT/47
+bounds:490,547,375,161
+offsets:1,0,376,171
+rotate:90
+WILD_TEXT/48
+bounds:651,924,375,161
+offsets:1,0,376,171
+rotate:90
+WILD_TEXT/49
+bounds:490,170,375,161
+offsets:1,0,376,171
+rotate:90
+WILD_TEXT/50
+bounds:1130,6,374,162
+offsets:2,0,376,171
+WILD_TEXT/51
+bounds:1300,548,374,162
+offsets:2,0,376,171
+rotate:90
+WILD_TEXT/52
+bounds:1460,925,374,162
+offsets:2,0,376,171
+rotate:90
+WILD_TEXT/55
+bounds:2,2,374,163
+offsets:2,0,376,171
+WILD_TEXT/56
+bounds:378,5,374,163
+offsets:2,0,376,171
+WILD_TEXT/57
+bounds:754,5,374,163
+offsets:2,0,376,171
+WILD_TEXT/6
+bounds:2,923,376,160
+offsets:0,2,376,171
+rotate:90
+WILD_TEXT/60
+bounds:1460,172,374,162
+offsets:2,0,376,171
+rotate:90
+WILD_TEXT/61
+bounds:1624,925,374,161
+offsets:2,0,376,171
+rotate:90
+WILD_TEXT/7
+bounds:2,545,376,160
+offsets:0,2,376,171
+rotate:90
+WILD_TEXT/8
+bounds:164,923,376,159
+offsets:0,2,376,171
+rotate:90
+WILD_TEXT/9
+bounds:2,167,376,160
+offsets:0,1,376,171
+rotate:90

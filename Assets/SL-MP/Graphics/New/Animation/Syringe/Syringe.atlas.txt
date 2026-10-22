@@ -1,0 +1,170 @@
+Syringe.png
+size:1995,940
+filter:Linear,Linear
+pma:true
+Green_Fire_Fx/Zombie Syringe_00000
+bounds:1563,629,207,309
+offsets:72,0,376,362
+Green_Fire_Fx/Zombie Syringe_00001
+bounds:1563,629,207,309
+offsets:72,0,376,362
+Green_Fire_Fx/Zombie Syringe_00002
+bounds:1685,6,204,280
+offsets:72,0,376,362
+rotate:90
+Green_Fire_Fx/Zombie Syringe_00003
+bounds:1685,6,204,280
+offsets:72,0,376,362
+rotate:90
+Green_Fire_Fx/Zombie Syringe_00004
+bounds:1269,3,205,284
+offsets:72,0,376,362
+Green_Fire_Fx/Zombie Syringe_00005
+bounds:1269,3,205,284
+offsets:72,0,376,362
+Green_Fire_Fx/Zombie Syringe_00006
+bounds:1476,2,207,289
+offsets:72,0,376,362
+Green_Fire_Fx/Zombie Syringe_00007
+bounds:1476,2,207,289
+offsets:72,0,376,362
+Green_Fire_Fx/Zombie Syringe_00008
+bounds:1685,212,207,297
+offsets:72,0,376,362
+rotate:90
+Green_Fire_Fx/Zombie Syringe_00009
+bounds:1685,212,207,297
+offsets:72,0,376,362
+rotate:90
+Green_Fire_Fx/Zombie Syringe_00010
+bounds:1772,635,208,303
+offsets:72,0,376,362
+Green_Fire_Fx/Zombie Syringe_00011
+bounds:1772,635,208,303
+offsets:72,0,376,362
+Green_Fire_Fx/Zombie Syringe_00012
+bounds:958,63,208,309
+offsets:73,0,376,362
+rotate:90
+Green_Fire_Fx/Zombie Syringe_00013
+bounds:958,63,208,309
+offsets:73,0,376,362
+rotate:90
+Green_Fire_Fx/Zombie Syringe_00014
+bounds:321,13,209,313
+offsets:73,0,376,362
+rotate:90
+Green_Fire_Fx/Zombie Syringe_00015
+bounds:321,13,209,313
+offsets:73,0,376,362
+rotate:90
+Green_Fire_Fx/Zombie Syringe_00016
+bounds:2,10,211,317
+offsets:72,0,376,362
+rotate:90
+Green_Fire_Fx/Zombie Syringe_00017
+bounds:2,10,211,317
+offsets:72,0,376,362
+rotate:90
+Green_Fire_Fx/Zombie Syringe_00018
+bounds:636,55,208,320
+offsets:74,0,376,362
+rotate:90
+Green_Fire_Fx/Zombie Syringe_00019
+bounds:636,55,208,320
+offsets:74,0,376,362
+rotate:90
+Green_Fire_Fx/Zombie Syringe_00020
+bounds:1152,614,207,324
+offsets:75,0,376,362
+Green_Fire_Fx/Zombie Syringe_00021
+bounds:1152,614,207,324
+offsets:75,0,376,362
+Green_Fire_Fx/Zombie Syringe_00022
+bounds:947,611,203,327
+offsets:77,0,376,362
+Green_Fire_Fx/Zombie Syringe_00023
+bounds:947,611,203,327
+offsets:77,0,376,362
+Green_Fire_Fx/Zombie Syringe_00024
+bounds:846,273,201,331
+offsets:77,0,376,362
+Green_Fire_Fx/Zombie Syringe_00025
+bounds:846,273,201,331
+offsets:77,0,376,362
+Green_Fire_Fx/Zombie Syringe_00026
+bounds:644,269,200,333
+offsets:77,0,376,362
+Green_Fire_Fx/Zombie Syringe_00027
+bounds:644,269,200,333
+offsets:77,0,376,362
+Green_Fire_Fx/Zombie Syringe_00028
+bounds:444,265,198,335
+offsets:77,0,376,362
+Green_Fire_Fx/Zombie Syringe_00029
+bounds:444,265,198,335
+offsets:77,0,376,362
+Green_Fire_Fx/Zombie Syringe_00030
+bounds:333,602,202,336
+offsets:75,0,376,362
+Green_Fire_Fx/Zombie Syringe_00031
+bounds:333,602,202,336
+offsets:75,0,376,362
+Green_Fire_Fx/Zombie Syringe_00032
+bounds:236,224,206,336
+offsets:74,0,376,362
+Green_Fire_Fx/Zombie Syringe_00033
+bounds:236,224,206,336
+offsets:74,0,376,362
+Green_Fire_Fx/Zombie Syringe_00034
+bounds:537,604,204,334
+offsets:76,0,376,362
+Green_Fire_Fx/Zombie Syringe_00035
+bounds:537,604,204,334
+offsets:76,0,376,362
+Green_Fire_Fx/Zombie Syringe_00036
+bounds:743,606,202,332
+offsets:78,0,376,362
+Green_Fire_Fx/Zombie Syringe_00037
+bounds:743,606,202,332
+offsets:78,0,376,362
+Green_Fire_Fx/Zombie Syringe_00038
+bounds:1049,284,199,325
+offsets:81,0,376,362
+Green_Fire_Fx/Zombie Syringe_00039
+bounds:1049,284,199,325
+offsets:81,0,376,362
+Green_Fire_Fx/Zombie Syringe_00040
+bounds:1454,293,197,321
+offsets:83,0,376,362
+Green_Fire_Fx/Zombie Syringe_00041
+bounds:1454,293,197,321
+offsets:83,0,376,362
+Green_Fire_Fx/Zombie Syringe_00042
+bounds:1361,616,200,322
+offsets:80,0,376,362
+Green_Fire_Fx/Zombie Syringe_00043
+bounds:1361,616,200,322
+offsets:80,0,376,362
+Green_Fire_Fx/Zombie Syringe_00044
+bounds:1250,289,202,323
+offsets:78,0,376,362
+Green_Fire_Fx/Zombie Syringe_00045
+bounds:1250,289,202,323
+offsets:78,0,376,362
+Green_Fire_Fx/Zombie Syringe_00046
+bounds:1685,421,206,308
+offsets:75,0,376,362
+rotate:90
+Green_Fire_Fx/Zombie Syringe_00047
+bounds:1685,421,206,308
+offsets:75,0,376,362
+rotate:90
+L_S
+bounds:2,223,337,232
+offsets:5,1,362,234
+rotate:90
+U_S
+bounds:2,562,376,329
+offsets:1,1,378,332
+rotate:90

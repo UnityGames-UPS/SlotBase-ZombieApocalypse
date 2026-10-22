@@ -1,0 +1,78 @@
+Gun.png
+size:1978,762
+filter:Linear,Linear
+pma:true
+Bullets
+bounds:1362,69,152,109
+offsets:1,1,155,111
+rotate:90
+Gun
+bounds:172,39,378,315
+offsets:1,1,380,317
+Gun_Blast/Navigation Gunshots_00000
+bounds:649,7,88,81
+offsets:382,109,514,302
+Gun_Blast/Navigation Gunshots_00001
+bounds:808,5,109,91
+offsets:356,104,514,302
+Gun_Blast/Navigation Gunshots_00002
+bounds:1362,223,225,141
+offsets:241,79,514,302
+Gun_Blast/Navigation Gunshots_00003
+bounds:2,24,330,168
+offsets:137,65,514,302
+rotate:90
+Gun_Blast/Navigation Gunshots_00004
+bounds:1159,3,360,201
+offsets:109,50,514,302
+rotate:90
+Gun_Blast/Navigation Gunshots_00005
+bounds:1589,22,381,230
+offsets:87,37,514,302
+Gun_Blast/Navigation Gunshots_00006
+bounds:1589,515,387,245
+offsets:78,31,514,302
+Gun_Blast/Navigation Gunshots_00007
+bounds:1063,365,395,260
+offsets:66,27,514,302
+rotate:90
+Gun_Blast/Navigation Gunshots_00008
+bounds:2,356,404,264
+offsets:55,23,514,302
+rotate:90
+Gun_Blast/Navigation Gunshots_00009
+bounds:268,356,404,264
+offsets:50,23,514,302
+rotate:90
+Gun_Blast/Navigation Gunshots_00010
+bounds:534,363,397,263
+offsets:46,24,514,302
+rotate:90
+Gun_Blast/Navigation Gunshots_00011
+bounds:760,98,397,263
+offsets:40,24,514,302
+Gun_Blast/Navigation Gunshots_00012
+bounds:799,364,396,262
+offsets:38,22,514,302
+rotate:90
+Gun_Blast/Navigation Gunshots_00013
+bounds:1325,366,394,262
+offsets:37,22,514,302
+rotate:90
+Gun_Blast/Navigation Gunshots_00014
+bounds:1589,254,386,259
+offsets:38,23,514,302
+Gun_Blast/Navigation Gunshots_00015
+bounds:552,90,271,206
+offsets:40,75,514,302
+rotate:90
+Gun_Blast/Navigation Gunshots_00016
+bounds:919,6,196,90
+offsets:40,76,514,302
+Gun_Blast/Navigation Gunshots_00017
+bounds:552,2,95,86
+offsets:41,78,514,302
+Liver
+bounds:739,12,76,67
+offsets:1,1,78,69
+rotate:90

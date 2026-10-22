@@ -1,0 +1,47 @@
+Dog.png
+size:1571,304
+filter:Linear,Linear
+pma:true
+Bg
+bounds:1056,13,337,289
+offsets:1,1,339,291
+L_Ear
+bounds:1521,206,41,96
+L_Eye
+bounds:1554,196,8,15
+offsets:1,1,10,17
+rotate:90
+R_Ear
+bounds:1395,47,74,134
+offsets:3,0,81,134
+R_Eye
+bounds:1521,185,31,19
+offsets:3,1,35,21
+collar
+bounds:1395,183,124,119
+offsets:1,5,126,125
+collar shadow
+bounds:352,25,360,277
+offsets:0,0,360,337
+frame lower
+bounds:352,3,348,20
+offsets:1,1,350,22
+frame shadow
+bounds:714,12,340,290
+offsets:1,1,342,293
+frme up
+bounds:2,2,348,300
+offsets:1,1,350,302
+hook up
+bounds:1395,16,27,29
+offsets:1,1,29,31
+lower jaw
+bounds:1471,90,91,75
+offsets:1,8,116,84
+rotate:90
+tongue
+bounds:1471,17,71,73
+rotate:90
+tooth up
+bounds:1424,32,14,13
+offsets:1,1,16,15

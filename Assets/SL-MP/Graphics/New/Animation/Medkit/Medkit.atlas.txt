@@ -1,0 +1,12 @@
+Medkit.png
+size:636,404
+filter:Linear,Linear
+pma:true
+F_Glow
+bounds:2,2,400,348
+offsets:0,33,400,400
+rotate:90
+Kit
+bounds:352,26,376,282
+offsets:1,1,379,284
+rotate:90
