@@ -1,0 +1,1352 @@
+fileFormatVersion: 2
+guid: ad5ec0d40e35047a8a7760bcda7d1e1d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1916047327426664821
+    second: RENDER HD 1280x720_00019_0
+  - first:
+      213: 6501412483962087595
+    second: RENDER HD 1280x720_00019_1
+  - first:
+      213: -1462516976940081172
+    second: RENDER HD 1280x720_00019_2
+  - first:
+      213: -2700291993018507420
+    second: RENDER HD 1280x720_00019_3
+  - first:
+      213: 5326078192721044354
+    second: RENDER HD 1280x720_00019_4
+  - first:
+      213: -2941468152751832481
+    second: RENDER HD 1280x720_00019_5
+  - first:
+      213: 1049342089275551999
+    second: RENDER HD 1280x720_00019_6
+  - first:
+      213: 3664077472191629259
+    second: RENDER HD 1280x720_00019_7
+  - first:
+      213: -9046014774982826428
+    second: RENDER HD 1280x720_00019_8
+  - first:
+      213: 6226470559970122188
+    second: RENDER HD 1280x720_00019_9
+  - first:
+      213: 6484487805829685291
+    second: RENDER HD 1280x720_00019_10
+  - first:
+      213: -6278955171408380792
+    second: RENDER HD 1280x720_00019_11
+  - first:
+      213: 1441733044530032416
+    second: RENDER HD 1280x720_00019_12
+  - first:
+      213: 5770626724194534902
+    second: RENDER HD 1280x720_00019_13
+  - first:
+      213: 3553609945774539465
+    second: RENDER HD 1280x720_00019_14
+  - first:
+      213: 6847727755452841920
+    second: RENDER HD 1280x720_00019_15
+  - first:
+      213: 5584158279519674533
+    second: RENDER HD 1280x720_00019_16
+  - first:
+      213: 4811425818319132777
+    second: RENDER HD 1280x720_00019_17
+  - first:
+      213: -6415025085579964212
+    second: RENDER HD 1280x720_00019_18
+  - first:
+      213: -5989627281058945524
+    second: RENDER HD 1280x720_00019_19
+  - first:
+      213: -1584522484610399771
+    second: RENDER HD 1280x720_00019_20
+  - first:
+      213: -3635295776438200755
+    second: RENDER HD 1280x720_00019_21
+  - first:
+      213: -8159873009111502218
+    second: RENDER HD 1280x720_00019_22
+  - first:
+      213: -5334475777566114522
+    second: RENDER HD 1280x720_00019_23
+  - first:
+      213: -5705941230701327928
+    second: RENDER HD 1280x720_00019_24
+  - first:
+      213: -2008204038576814571
+    second: RENDER HD 1280x720_00019_25
+  - first:
+      213: 7791626980835571836
+    second: RENDER HD 1280x720_00019_26
+  - first:
+      213: -64365243488328575
+    second: RENDER HD 1280x720_00019_27
+  - first:
+      213: -2190858248672089269
+    second: RENDER HD 1280x720_00019_28
+  - first:
+      213: -7747330634017634968
+    second: RENDER HD 1280x720_00019_29
+  - first:
+      213: 2755084432819198459
+    second: RENDER HD 1280x720_00019_30
+  - first:
+      213: 7023004161798414895
+    second: RENDER HD 1280x720_00019_31
+  - first:
+      213: 6263358291753787376
+    second: RENDER HD 1280x720_00019_32
+  - first:
+      213: 8706069895814686071
+    second: RENDER HD 1280x720_00019_33
+  - first:
+      213: 8174764586872887814
+    second: RENDER HD 1280x720_00019_34
+  - first:
+      213: 407061930284661839
+    second: RENDER HD 1280x720_00019_35
+  - first:
+      213: -7008055641864450807
+    second: RENDER HD 1280x720_00019_36
+  - first:
+      213: -772863278398321850
+    second: RENDER HD 1280x720_00019_37
+  - first:
+      213: -5485256878607392753
+    second: RENDER HD 1280x720_00019_38
+  - first:
+      213: 4008867799622624693
+    second: RENDER HD 1280x720_00019_39
+  - first:
+      213: -7051362003190054166
+    second: RENDER HD 1280x720_00019_40
+  - first:
+      213: -6587211773979761569
+    second: RENDER HD 1280x720_00019_41
+  - first:
+      213: -8515519363070785154
+    second: RENDER HD 1280x720_00019_42
+  - first:
+      213: 3865325048658698988
+    second: RENDER HD 1280x720_00019_43
+  - first:
+      213: 4558189430676588958
+    second: RENDER HD 1280x720_00019_44
+  - first:
+      213: -8241767134172149888
+    second: RENDER HD 1280x720_00019_45
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RENDER HD 1280x720_00019_0
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 382
+        width: 71
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b86a5eb7b15d865e0800000000000000
+      internalID: -1916047327426664821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RENDER HD 1280x720_00019_1
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 409
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba8a9dc4538a93a50800000000000000
+      internalID: 6501412483962087595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RENDER HD 1280x720_00019_2
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 425
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cef1287ee8814bbe0800000000000000
+      internalID: -1462516976940081172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RENDER HD 1280x720_00019_3
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 402
+        width: 130
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46fdc463db2a68ad0800000000000000
+      internalID: -2700291993018507420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RENDER HD 1280x720_00019_4
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 409
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 283a713c5e70ae940800000000000000
+      internalID: 5326078192721044354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RENDER HD 1280x720_00019_5
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 389
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f524a15bc4ecd27d0800000000000000
+      internalID: -2941468152751832481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RENDER HD 1280x720_00019_6
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 397
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff0b22f0213009e00800000000000000
+      internalID: 1049342089275551999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RENDER HD 1280x720_00019_7
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 389
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc74e7f3c0b69d230800000000000000
+      internalID: 3664077472191629259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RENDER HD 1280x720_00019_8
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 349
+        width: 62
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 446a6307d79167280800000000000000
+      internalID: -9046014774982826428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RENDER HD 1280x720_00019_9
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 398
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc9527b2cfdd86650800000000000000
+      internalID: 6226470559970122188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RENDER HD 1280x720_00019_10
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 398
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b20a4d89d478df950800000000000000
+      internalID: 6484487805829685291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RENDER HD 1280x720_00019_11
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 250
+        width: 83
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88cf997f98bacd8a0800000000000000
+      internalID: -6278955171408380792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RENDER HD 1280x720_00019_12
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 374
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02fa72cb090120410800000000000000
+      internalID: 1441733044530032416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RENDER HD 1280x720_00019_13
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 384
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f5cdfa7e62651050800000000000000
+      internalID: 5770626724194534902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RENDER HD 1280x720_00019_14
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 356
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c2cf28fa65f05130800000000000000
+      internalID: 3553609945774539465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RENDER HD 1280x720_00019_15
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 342
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cf795edc14080f50800000000000000
+      internalID: 6847727755452841920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RENDER HD 1280x720_00019_16
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 294
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a0a35c7e5aee7d40800000000000000
+      internalID: 5584158279519674533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RENDER HD 1280x720_00019_17
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 282
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9681e0c2a4e95c240800000000000000
+      internalID: 4811425818319132777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RENDER HD 1280x720_00019_18
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 229
+        width: 83
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc059c44ca049f6a0800000000000000
+      internalID: -6415025085579964212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RENDER HD 1280x720_00019_19
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 245
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c062e77e8b190eca0800000000000000
+      internalID: -5989627281058945524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RENDER HD 1280x720_00019_20
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 266
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e18d260235a20ae0800000000000000
+      internalID: -1584522484610399771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RENDER HD 1280x720_00019_21
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 279
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d465cef70c5dc8dc0800000000000000
+      internalID: -3635295776438200755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RENDER HD 1280x720_00019_22
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 246
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6727c972bbe42ce80800000000000000
+      internalID: -8159873009111502218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RENDER HD 1280x720_00019_23
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 254
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62dfe372b8228f5b0800000000000000
+      internalID: -5334475777566114522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RENDER HD 1280x720_00019_24
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 257
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c9caca9eac60d0b0800000000000000
+      internalID: -5705941230701327928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RENDER HD 1280x720_00019_25
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 256
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 516cf1c111d6124e0800000000000000
+      internalID: -2008204038576814571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RENDER HD 1280x720_00019_26
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 247
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c78bd0f057b612c60800000000000000
+      internalID: 7791626980835571836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RENDER HD 1280x720_00019_27
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 170
+        width: 62
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1842ffde6245b1ff0800000000000000
+      internalID: -64365243488328575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RENDER HD 1280x720_00019_28
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 224
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4b6aaec7028891e0800000000000000
+      internalID: -2190858248672089269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RENDER HD 1280x720_00019_29
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 221
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86580e1e5d3fb7490800000000000000
+      internalID: -7747330634017634968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RENDER HD 1280x720_00019_30
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 201
+        width: 43
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf99560d1b60c3620800000000000000
+      internalID: 2755084432819198459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RENDER HD 1280x720_00019_31
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 215
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f22a5106319b67160800000000000000
+      internalID: 7023004161798414895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RENDER HD 1280x720_00019_32
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 184
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ff5bf08e2bebe650800000000000000
+      internalID: 6263358291753787376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RENDER HD 1280x720_00019_33
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 180
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 775a1c9817c22d870800000000000000
+      internalID: 8706069895814686071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RENDER HD 1280x720_00019_34
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 54
+        width: 121
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60a500b7419927170800000000000000
+      internalID: 8174764586872887814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RENDER HD 1280x720_00019_35
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 137
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4cb33c3bac26a500800000000000000
+      internalID: 407061930284661839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RENDER HD 1280x720_00019_36
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 126
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90d4f7426826ebe90800000000000000
+      internalID: -7008055641864450807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RENDER HD 1280x720_00019_37
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 151
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64bcf1f61fc3645f0800000000000000
+      internalID: -772863278398321850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RENDER HD 1280x720_00019_38
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 77
+        width: 100
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f00a6d85ee370e3b0800000000000000
+      internalID: -5485256878607392753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RENDER HD 1280x720_00019_39
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 140
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b5220c160c52a730800000000000000
+      internalID: 4008867799622624693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RENDER HD 1280x720_00019_40
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 60
+        width: 83
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae28b292e97842e90800000000000000
+      internalID: -7051362003190054166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RENDER HD 1280x720_00019_41
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 89
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f546aa7cac58594a0800000000000000
+      internalID: -6587211773979761569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RENDER HD 1280x720_00019_42
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 108
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e798436a14cc2d980800000000000000
+      internalID: -8515519363070785154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RENDER HD 1280x720_00019_43
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 59
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce2a8b207a464a530800000000000000
+      internalID: 3865325048658698988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RENDER HD 1280x720_00019_44
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 76
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e990b6a0321f14f30800000000000000
+      internalID: 4558189430676588958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RENDER HD 1280x720_00019_45
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 31
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0870e2e457c5f9d80800000000000000
+      internalID: -8241767134172149888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      RENDER HD 1280x720_00019_0: -1916047327426664821
+      RENDER HD 1280x720_00019_1: 6501412483962087595
+      RENDER HD 1280x720_00019_10: 6484487805829685291
+      RENDER HD 1280x720_00019_11: -6278955171408380792
+      RENDER HD 1280x720_00019_12: 1441733044530032416
+      RENDER HD 1280x720_00019_13: 5770626724194534902
+      RENDER HD 1280x720_00019_14: 3553609945774539465
+      RENDER HD 1280x720_00019_15: 6847727755452841920
+      RENDER HD 1280x720_00019_16: 5584158279519674533
+      RENDER HD 1280x720_00019_17: 4811425818319132777
+      RENDER HD 1280x720_00019_18: -6415025085579964212
+      RENDER HD 1280x720_00019_19: -5989627281058945524
+      RENDER HD 1280x720_00019_2: -1462516976940081172
+      RENDER HD 1280x720_00019_20: -1584522484610399771
+      RENDER HD 1280x720_00019_21: -3635295776438200755
+      RENDER HD 1280x720_00019_22: -8159873009111502218
+      RENDER HD 1280x720_00019_23: -5334475777566114522
+      RENDER HD 1280x720_00019_24: -5705941230701327928
+      RENDER HD 1280x720_00019_25: -2008204038576814571
+      RENDER HD 1280x720_00019_26: 7791626980835571836
+      RENDER HD 1280x720_00019_27: -64365243488328575
+      RENDER HD 1280x720_00019_28: -2190858248672089269
+      RENDER HD 1280x720_00019_29: -7747330634017634968
+      RENDER HD 1280x720_00019_3: -2700291993018507420
+      RENDER HD 1280x720_00019_30: 2755084432819198459
+      RENDER HD 1280x720_00019_31: 7023004161798414895
+      RENDER HD 1280x720_00019_32: 6263358291753787376
+      RENDER HD 1280x720_00019_33: 8706069895814686071
+      RENDER HD 1280x720_00019_34: 8174764586872887814
+      RENDER HD 1280x720_00019_35: 407061930284661839
+      RENDER HD 1280x720_00019_36: -7008055641864450807
+      RENDER HD 1280x720_00019_37: -772863278398321850
+      RENDER HD 1280x720_00019_38: -5485256878607392753
+      RENDER HD 1280x720_00019_39: 4008867799622624693
+      RENDER HD 1280x720_00019_4: 5326078192721044354
+      RENDER HD 1280x720_00019_40: -7051362003190054166
+      RENDER HD 1280x720_00019_41: -6587211773979761569
+      RENDER HD 1280x720_00019_42: -8515519363070785154
+      RENDER HD 1280x720_00019_43: 3865325048658698988
+      RENDER HD 1280x720_00019_44: 4558189430676588958
+      RENDER HD 1280x720_00019_45: -8241767134172149888
+      RENDER HD 1280x720_00019_5: -2941468152751832481
+      RENDER HD 1280x720_00019_6: 1049342089275551999
+      RENDER HD 1280x720_00019_7: 3664077472191629259
+      RENDER HD 1280x720_00019_8: -9046014774982826428
+      RENDER HD 1280x720_00019_9: 6226470559970122188
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1482 @@
+fileFormatVersion: 2
+guid: 9d44402b29b364fa6ac1bf3f4941ceaa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5692827307776301546
+    second: Gun_Man_2_0
+  - first:
+      213: 2653892806380063783
+    second: Gun_Man_2_1
+  - first:
+      213: 2832955014474590740
+    second: Gun_Man_2_2
+  - first:
+      213: 6769371703756771
+    second: Gun_Man_2_3
+  - first:
+      213: 8465063815745509828
+    second: Gun_Man_2_4
+  - first:
+      213: -7375131975959465393
+    second: Gun_Man_2_5
+  - first:
+      213: -5643120863200681873
+    second: Gun_Man_2_6
+  - first:
+      213: 5025592670068754104
+    second: Gun_Man_2_7
+  - first:
+      213: -6916125218749296602
+    second: Gun_Man_2_8
+  - first:
+      213: 4463119812413661967
+    second: Gun_Man_2_9
+  - first:
+      213: 8437423418957439456
+    second: Gun_Man_2_10
+  - first:
+      213: 5498631926074996735
+    second: Gun_Man_2_11
+  - first:
+      213: 2742485696104079021
+    second: Gun_Man_2_12
+  - first:
+      213: 8897199920368792238
+    second: Gun_Man_2_13
+  - first:
+      213: -58841305900645373
+    second: Gun_Man_2_14
+  - first:
+      213: 4965259964397025716
+    second: Gun_Man_2_15
+  - first:
+      213: -7210708609851316767
+    second: Gun_Man_2_16
+  - first:
+      213: 3064003158963984479
+    second: Gun_Man_2_17
+  - first:
+      213: 8150780788741030500
+    second: Gun_Man_2_18
+  - first:
+      213: -7028869113154985500
+    second: Gun_Man_2_19
+  - first:
+      213: 3610222124667409306
+    second: Gun_Man_2_20
+  - first:
+      213: -2794933428361662988
+    second: Gun_Man_2_21
+  - first:
+      213: -3786913249623289585
+    second: Gun_Man_2_22
+  - first:
+      213: -5377204900108312903
+    second: Gun_Man_2_23
+  - first:
+      213: -8469374097315605536
+    second: Gun_Man_2_24
+  - first:
+      213: 2744051798286018457
+    second: Gun_Man_2_25
+  - first:
+      213: -8539399066688453708
+    second: Gun_Man_2_26
+  - first:
+      213: -4220616807549355243
+    second: Gun_Man_2_27
+  - first:
+      213: -3800856975168028323
+    second: Gun_Man_2_28
+  - first:
+      213: 2264981237736447557
+    second: Gun_Man_2_29
+  - first:
+      213: 8326379258690577483
+    second: Gun_Man_2_30
+  - first:
+      213: 3241958554626752685
+    second: Gun_Man_2_31
+  - first:
+      213: 3606600757614682640
+    second: Gun_Man_2_32
+  - first:
+      213: 5816605750804478067
+    second: Gun_Man_2_33
+  - first:
+      213: 8213063583523845554
+    second: Gun_Man_2_34
+  - first:
+      213: 5092586863849486384
+    second: Gun_Man_2_35
+  - first:
+      213: -3646326324254371642
+    second: Gun_Man_2_36
+  - first:
+      213: -8996099818002362646
+    second: Gun_Man_2_37
+  - first:
+      213: 6471996807949501155
+    second: Gun_Man_2_38
+  - first:
+      213: -8398080007209599699
+    second: Gun_Man_2_39
+  - first:
+      213: -8855188454523550950
+    second: Gun_Man_2_40
+  - first:
+      213: -1305442734132573716
+    second: Gun_Man_2_41
+  - first:
+      213: -2824039763346321405
+    second: Gun_Man_2_42
+  - first:
+      213: 1983782540826581464
+    second: Gun_Man_2_43
+  - first:
+      213: 6506707439974439050
+    second: Gun_Man_2_44
+  - first:
+      213: 3787957818713324505
+    second: Gun_Man_2_45
+  - first:
+      213: -3785874223357060061
+    second: Gun_Man_2_46
+  - first:
+      213: 7012753464780765580
+    second: Gun_Man_2_47
+  - first:
+      213: -5116334385496655489
+    second: Gun_Man_2_48
+  - first:
+      213: 808532411788228229
+    second: Gun_Man_2_49
+  - first:
+      213: -5006099656881880708
+    second: Gun_Man_2_50
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gun_Man_2_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 467
+        width: 181
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae956a7464cf00f40800000000000000
+      internalID: 5692827307776301546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun_Man_2_1
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 468
+        width: 304
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72c8f3c427584d420800000000000000
+      internalID: 2653892806380063783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun_Man_2_2
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 443
+        width: 183
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41a6b66739da05720800000000000000
+      internalID: 2832955014474590740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun_Man_2_3
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 658
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e741cb25bc081000800000000000000
+      internalID: 6769371703756771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun_Man_2_4
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 660
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c9168ac0b2f97570800000000000000
+      internalID: 8465063815745509828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun_Man_2_5
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 396
+        width: 129
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f42bf410b8446a990800000000000000
+      internalID: -7375131975959465393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun_Man_2_6
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 595
+        width: 15
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f60e354397b9fa1b0800000000000000
+      internalID: -5643120863200681873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun_Man_2_7
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 625
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b6414d18ed7eb540800000000000000
+      internalID: 5025592670068754104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun_Man_2_8
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 397
+        width: 315
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 620d35ab1ccf400a0800000000000000
+      internalID: -6916125218749296602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun_Man_2_9
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 584
+        width: 105
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f03ace0a2df20fd30800000000000000
+      internalID: 4463119812413661967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun_Man_2_10
+      rect:
+        serializedVersion: 2
+        x: 1509
+        y: 328
+        width: 380
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e1258a65efb71570800000000000000
+      internalID: 8437423418957439456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun_Man_2_11
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 582
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff772509a901f4c40800000000000000
+      internalID: 5498631926074996735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun_Man_2_12
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 585
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dae9fd5d5344f0620800000000000000
+      internalID: 2742485696104079021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun_Man_2_13
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 553
+        width: 47
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea2373d2034397b70800000000000000
+      internalID: 8897199920368792238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun_Man_2_14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 464
+        height: 466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3040cafd424fe2ff0800000000000000
+      internalID: -58841305900645373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun_Man_2_15
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 451
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b97a5b61a528e440800000000000000
+      internalID: 4965259964397025716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun_Man_2_16
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 467
+        width: 17
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e526fa29ba6eeb90800000000000000
+      internalID: -7210708609851316767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun_Man_2_17
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 396
+        width: 315
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5819b8a3a6858a20800000000000000
+      internalID: 3064003158963984479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun_Man_2_18
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 396
+        width: 46
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 462ccf251f36d1170800000000000000
+      internalID: 8150780788741030500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun_Man_2_19
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 391
+        width: 70
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e1aea938c0747e90800000000000000
+      internalID: -7028869113154985500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun_Man_2_20
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 381
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a939e0505e51a1230800000000000000
+      internalID: 3610222124667409306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun_Man_2_21
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 387
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fd63a7ead66639d0800000000000000
+      internalID: -2794933428361662988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun_Man_2_22
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 1
+        width: 338
+        height: 395
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f01dbf0a67e227bc0800000000000000
+      internalID: -3786913249623289585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun_Man_2_23
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 1
+        width: 335
+        height: 395
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bedd8c02a45065b0800000000000000
+      internalID: -5377204900108312903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun_Man_2_24
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 375
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e3db93912db67a80800000000000000
+      internalID: -8469374097315605536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun_Man_2_25
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 367
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9972c1a6294d41620800000000000000
+      internalID: 2744051798286018457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun_Man_2_26
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 326
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b38bb2eac5fd7980800000000000000
+      internalID: -8539399066688453708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun_Man_2_27
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 360
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51b3af4106b5d65c0800000000000000
+      internalID: -4220616807549355243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun_Man_2_28
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 1
+        width: 319
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d514b0908b4a04bc0800000000000000
+      internalID: -3800856975168028323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun_Man_2_29
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 329
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54e94327f64de6f10800000000000000
+      internalID: 2264981237736447557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun_Man_2_30
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 337
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b44ae6b12dd3d8370800000000000000
+      internalID: 8326379258690577483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun_Man_2_31
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 289
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da00119f020cdfc20800000000000000
+      internalID: 3241958554626752685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun_Man_2_32
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 302
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 012274cc7483d0230800000000000000
+      internalID: 3606600757614682640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun_Man_2_33
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 315
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 378f137dc1cb8b050800000000000000
+      internalID: 5816605750804478067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun_Man_2_34
+      rect:
+        serializedVersion: 2
+        x: 1509
+        y: 1
+        width: 391
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b5b2a580d9aaf170800000000000000
+      internalID: 8213063583523845554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun_Man_2_35
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 195
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 038b19f55c08ca640800000000000000
+      internalID: 5092586863849486384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun_Man_2_36
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 175
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c099a3f685a56dc0800000000000000
+      internalID: -3646326324254371642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun_Man_2_37
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 152
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aee430001ee672380800000000000000
+      internalID: -8996099818002362646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun_Man_2_38
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 144
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e2ca458ec621d950800000000000000
+      internalID: 6471996807949501155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun_Man_2_39
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 119
+        width: 19
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2d36f67ab6047b80800000000000000
+      internalID: -8398080007209599699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun_Man_2_40
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 159
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a13cbf4740d0c1580800000000000000
+      internalID: -8855188454523550950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun_Man_2_41
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 132
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce9c965ffb222ede0800000000000000
+      internalID: -1305442734132573716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun_Man_2_42
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 139
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3001a223ccefec8d0800000000000000
+      internalID: -2824039763346321405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun_Man_2_43
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 116
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d91799d5bfc78b10800000000000000
+      internalID: 1983782540826581464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun_Man_2_44
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 75
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a88511151f77c4a50800000000000000
+      internalID: 6506707439974439050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun_Man_2_45
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 100
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9db32901197819430800000000000000
+      internalID: 3787957818713324505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun_Man_2_46
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 75
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32c9e78c37fd57bc0800000000000000
+      internalID: -3785874223357060061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun_Man_2_47
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 90
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c89b5adfe1e425160800000000000000
+      internalID: 7012753464780765580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun_Man_2_48
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 85
+        width: 6
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f79fa50ebf02ff8b0800000000000000
+      internalID: -5116334385496655489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun_Man_2_49
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 72
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 586f60ad1fb783b00800000000000000
+      internalID: 808532411788228229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun_Man_2_50
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 75
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c71c951b2e2c68ab0800000000000000
+      internalID: -5006099656881880708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Gun_Man_2_0: 5692827307776301546
+      Gun_Man_2_1: 2653892806380063783
+      Gun_Man_2_10: 8437423418957439456
+      Gun_Man_2_11: 5498631926074996735
+      Gun_Man_2_12: 2742485696104079021
+      Gun_Man_2_13: 8897199920368792238
+      Gun_Man_2_14: -58841305900645373
+      Gun_Man_2_15: 4965259964397025716
+      Gun_Man_2_16: -7210708609851316767
+      Gun_Man_2_17: 3064003158963984479
+      Gun_Man_2_18: 8150780788741030500
+      Gun_Man_2_19: -7028869113154985500
+      Gun_Man_2_2: 2832955014474590740
+      Gun_Man_2_20: 3610222124667409306
+      Gun_Man_2_21: -2794933428361662988
+      Gun_Man_2_22: -3786913249623289585
+      Gun_Man_2_23: -5377204900108312903
+      Gun_Man_2_24: -8469374097315605536
+      Gun_Man_2_25: 2744051798286018457
+      Gun_Man_2_26: -8539399066688453708
+      Gun_Man_2_27: -4220616807549355243
+      Gun_Man_2_28: -3800856975168028323
+      Gun_Man_2_29: 2264981237736447557
+      Gun_Man_2_3: 6769371703756771
+      Gun_Man_2_30: 8326379258690577483
+      Gun_Man_2_31: 3241958554626752685
+      Gun_Man_2_32: 3606600757614682640
+      Gun_Man_2_33: 5816605750804478067
+      Gun_Man_2_34: 8213063583523845554
+      Gun_Man_2_35: 5092586863849486384
+      Gun_Man_2_36: -3646326324254371642
+      Gun_Man_2_37: -8996099818002362646
+      Gun_Man_2_38: 6471996807949501155
+      Gun_Man_2_39: -8398080007209599699
+      Gun_Man_2_4: 8465063815745509828
+      Gun_Man_2_40: -8855188454523550950
+      Gun_Man_2_41: -1305442734132573716
+      Gun_Man_2_42: -2824039763346321405
+      Gun_Man_2_43: 1983782540826581464
+      Gun_Man_2_44: 6506707439974439050
+      Gun_Man_2_45: 3787957818713324505
+      Gun_Man_2_46: -3785874223357060061
+      Gun_Man_2_47: 7012753464780765580
+      Gun_Man_2_48: -5116334385496655489
+      Gun_Man_2_49: 808532411788228229
+      Gun_Man_2_5: -7375131975959465393
+      Gun_Man_2_50: -5006099656881880708
+      Gun_Man_2_6: -5643120863200681873
+      Gun_Man_2_7: 5025592670068754104
+      Gun_Man_2_8: -6916125218749296602
+      Gun_Man_2_9: 4463119812413661967
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

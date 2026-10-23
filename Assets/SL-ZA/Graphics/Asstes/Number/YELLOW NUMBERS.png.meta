@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: 1e65269df333b4b248e85fb28d59b0da
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 758648583554215630
+    second: YELLOW NUMBERS_0
+  - first:
+      213: 2901797644762885362
+    second: YELLOW NUMBERS_1
+  - first:
+      213: 6809883041114064426
+    second: YELLOW NUMBERS_2
+  - first:
+      213: 4387269535821060016
+    second: YELLOW NUMBERS_3
+  - first:
+      213: 239599775871523957
+    second: YELLOW NUMBERS_4
+  - first:
+      213: 871505488090901579
+    second: YELLOW NUMBERS_5
+  - first:
+      213: 499341008017003454
+    second: YELLOW NUMBERS_6
+  - first:
+      213: 6538949707514240836
+    second: YELLOW NUMBERS_7
+  - first:
+      213: 2401534539289777077
+    second: YELLOW NUMBERS_8
+  - first:
+      213: -7784738064253076493
+    second: YELLOW NUMBERS_9
+  - first:
+      213: 711252618687858092
+    second: YELLOW NUMBERS_10
+  - first:
+      213: -1933465273811063752
+    second: YELLOW NUMBERS_11
+  - first:
+      213: -15191616385479390
+    second: YELLOW NUMBERS_12
+  - first:
+      213: -8574599554310220903
+    second: YELLOW NUMBERS_13
+  - first:
+      213: -6015641273880814997
+    second: YELLOW NUMBERS_14
+  - first:
+      213: -9000741987682327089
+    second: YELLOW NUMBERS_15
+  - first:
+      213: 2794013588938604367
+    second: YELLOW NUMBERS_16
+  - first:
+      213: 1964215273804776062
+    second: YELLOW NUMBERS_17
+  - first:
+      213: -3988035274367007301
+    second: YELLOW NUMBERS_18
+  - first:
+      213: -464261553063336609
+    second: YELLOW NUMBERS_19
+  - first:
+      213: 2524691405096605459
+    second: YELLOW NUMBERS_20
+  - first:
+      213: 2296891095465567161
+    second: YELLOW NUMBERS_21
+  - first:
+      213: -7145141016734275091
+    second: YELLOW NUMBERS_22
+  - first:
+      213: -2219336607953651652
+    second: YELLOW NUMBERS_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: YELLOW NUMBERS_0
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 734
+        width: 202
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ece2a140ed2478a00800000000000000
+      internalID: 758648583554215630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YELLOW NUMBERS_1
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 996
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fc28226591454820800000000000000
+      internalID: 2901797644762885362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YELLOW NUMBERS_2
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 734
+        width: 209
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a268f8bab80918e50800000000000000
+      internalID: 6809883041114064426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YELLOW NUMBERS_3
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 734
+        width: 143
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b7d188e566b2ec30800000000000000
+      internalID: 4387269535821060016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YELLOW NUMBERS_4
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 858
+        width: 7
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57cd5190aba335300800000000000000
+      internalID: 239599775871523957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YELLOW NUMBERS_5
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 719
+        width: 215
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4c267dbf95381c00800000000000000
+      internalID: 871505488090901579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YELLOW NUMBERS_6
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 798
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb393ac40040ee600800000000000000
+      internalID: 499341008017003454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YELLOW NUMBERS_7
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 768
+        width: 7
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44fd7883d140fba50800000000000000
+      internalID: 6538949707514240836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YELLOW NUMBERS_8
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 728
+        width: 34
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b3d23a80f6f35120800000000000000
+      internalID: 2401534539289777077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YELLOW NUMBERS_9
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 463
+        width: 218
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fbbbb2d9fd07f390800000000000000
+      internalID: -7784738064253076493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YELLOW NUMBERS_10
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 450
+        width: 220
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca5c4720d70eed900800000000000000
+      internalID: 711252618687858092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YELLOW NUMBERS_11
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 696
+        width: 29
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83c20f0d393fa25e0800000000000000
+      internalID: -1933465273811063752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YELLOW NUMBERS_12
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 452
+        width: 209
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22d87cd2e470acff0800000000000000
+      internalID: -15191616385479390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YELLOW NUMBERS_13
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 699
+        width: 29
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 993dd12b227e00980800000000000000
+      internalID: -8574599554310220903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YELLOW NUMBERS_14
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 145
+        width: 234
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6ad7263226248ca0800000000000000
+      internalID: -6015641273880814997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YELLOW NUMBERS_15
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 142
+        width: 229
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc56045a9d0f61380800000000000000
+      internalID: -9000741987682327089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YELLOW NUMBERS_16
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 446
+        width: 32
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4fbc4a4e8456c620800000000000000
+      internalID: 2794013588938604367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YELLOW NUMBERS_17
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 382
+        width: 219
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e72c789726b424b10800000000000000
+      internalID: 1964215273804776062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YELLOW NUMBERS_18
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 442
+        width: 31
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb580a72c07a7a8c0800000000000000
+      internalID: -3988035274367007301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YELLOW NUMBERS_19
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 448
+        width: 58
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f55e9c6c39c9e89f0800000000000000
+      internalID: -464261553063336609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YELLOW NUMBERS_20
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 248
+        width: 10
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 317d340e471890320800000000000000
+      internalID: 2524691405096605459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YELLOW NUMBERS_21
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 142
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b3abf8284230ef10800000000000000
+      internalID: 2296891095465567161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YELLOW NUMBERS_22
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 202
+        width: 7
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de9ea731a1c57dc90800000000000000
+      internalID: -7145141016734275091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YELLOW NUMBERS_23
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 142
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c38f6e51d155331e0800000000000000
+      internalID: -2219336607953651652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      YELLOW NUMBERS_0: 758648583554215630
+      YELLOW NUMBERS_1: 2901797644762885362
+      YELLOW NUMBERS_10: 711252618687858092
+      YELLOW NUMBERS_11: -1933465273811063752
+      YELLOW NUMBERS_12: -15191616385479390
+      YELLOW NUMBERS_13: -8574599554310220903
+      YELLOW NUMBERS_14: -6015641273880814997
+      YELLOW NUMBERS_15: -9000741987682327089
+      YELLOW NUMBERS_16: 2794013588938604367
+      YELLOW NUMBERS_17: 1964215273804776062
+      YELLOW NUMBERS_18: -3988035274367007301
+      YELLOW NUMBERS_19: -464261553063336609
+      YELLOW NUMBERS_2: 6809883041114064426
+      YELLOW NUMBERS_20: 2524691405096605459
+      YELLOW NUMBERS_21: 2296891095465567161
+      YELLOW NUMBERS_22: -7145141016734275091
+      YELLOW NUMBERS_23: -2219336607953651652
+      YELLOW NUMBERS_3: 4387269535821060016
+      YELLOW NUMBERS_4: 239599775871523957
+      YELLOW NUMBERS_5: 871505488090901579
+      YELLOW NUMBERS_6: 499341008017003454
+      YELLOW NUMBERS_7: 6538949707514240836
+      YELLOW NUMBERS_8: 2401534539289777077
+      YELLOW NUMBERS_9: -7784738064253076493
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
