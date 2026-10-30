@@ -1,0 +1,7 @@
+bg_smoke.png
+size:388,354
+filter:Linear,Linear
+pma:true
+Smoke
+bounds:2,2,384,350
+offsets:26,42,432,454

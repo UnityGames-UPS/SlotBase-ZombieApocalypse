@@ -172,10 +172,15 @@ public class MatchedPosition
 public class WildExplosions
 {
     public bool triggered { get; set; }
-    public List<List<string>> originalMatrix { get; set; }
-    public List<List<string>> newMatrix { get; set; }
-    public List<TriggerPosition> triggerPositions { get; set; }
-    public List<AddedWildPosition> addedWildPositions { get; set; }
+    public List<Explosion> explosions { get; set; }
+}
+
+[Serializable]
+public class Explosion
+{
+    public int index { get; set; }
+    public TriggerPosition triggerPosition { get; set; }
+    public List<ExplodedPosition> explodedPositions { get; set; }
 }
 
 [Serializable]
@@ -183,11 +188,13 @@ public class TriggerPosition
 {
     public int row { get; set; }
     public int col { get; set; }
+    public int symbolId { get; set; }
 }
 
 [Serializable]
-public class AddedWildPosition
+public class ExplodedPosition
 {
     public int row { get; set; }
     public int col { get; set; }
+    public int originalSymbolId { get; set; }
 }

@@ -1003,15 +1003,14 @@ public class UIManager : MonoBehaviour
             if (symbol == null || symbol.multiplier == null || symbol.multiplier.Count == 0) continue;
 
             string fullText = "";
-            int matchCount = 5; // backend multiplier array is ordered starting from a 5-symbol match
+            // backend multiplier array is ordered 3, 4, 5 match; prepend so 5 shows on top
             for (int m = 0; m < symbol.multiplier.Count; m++)
             {
                 double win = symbol.multiplier[m];
-                if (win == 0) break;
+                if (win == 0) continue;
 
-                string line = $"{matchCount} * {win:0.##}";
-                fullText = (fullText == "") ? line : fullText + $"\n{line}";
-                matchCount--;
+                string line = $"<color=red>{m + 3}</color>  {win:0.##}";
+                fullText = (fullText == "") ? line : line + $"\n{fullText}";
             }
 
             symbolTexts[i].text = fullText;

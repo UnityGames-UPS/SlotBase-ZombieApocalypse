@@ -55,6 +55,13 @@ public class SpineAnimController : MonoBehaviour
             {
                 skeletonGraphic.Initialize(false);
             }
+            // freeze skips LateUpdate, so pose and build the mesh now (picks up color too);
+            // otherwise a freshly assigned skeleton renders blank
+            if (skeletonGraphic.IsValid)
+            {
+                skeletonGraphic.Update(0f);
+                skeletonGraphic.UpdateMesh();
+            }
             skeletonGraphic.freeze = true;
         }
     }
@@ -155,6 +162,8 @@ public class SpineAnimController : MonoBehaviour
                     }
                 }
             }
+
+            skeletonGraphic.startingAnimation = animName;
 
             if (animName != oldAnimName)
             {

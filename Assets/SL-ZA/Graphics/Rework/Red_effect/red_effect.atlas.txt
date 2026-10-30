@@ -1,0 +1,7 @@
+red_effect.png
+size:506,505
+filter:Linear,Linear
+pma:true
+Red
+bounds:2,2,502,501
+offsets:37,30,568,568

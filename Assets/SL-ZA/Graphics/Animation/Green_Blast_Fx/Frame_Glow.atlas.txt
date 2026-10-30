@@ -1,0 +1,111 @@
+Frame_Glow.png
+size:1900,1901
+filter:Linear,Linear
+pma:true
+Green_Blast_Fx/RENDER HD 1280x720_00000
+bounds:480,1415,6,6
+offsets:245,252,500,500
+Green_Blast_Fx/RENDER HD 1280x720_00001
+bounds:2,1423,500,476
+offsets:0,12,500,500
+Green_Blast_Fx/RENDER HD 1280x720_00002
+bounds:504,1399,500,476
+offsets:0,12,500,500
+rotate:90
+Green_Blast_Fx/RENDER HD 1280x720_00003
+bounds:2,921,500,476
+offsets:0,12,500,500
+rotate:90
+Green_Blast_Fx/RENDER HD 1280x720_00004
+bounds:480,921,500,476
+offsets:0,12,500,500
+Green_Blast_Fx/RENDER HD 1280x720_00005
+bounds:982,1399,500,476
+offsets:0,12,500,500
+rotate:90
+Green_Blast_Fx/RENDER HD 1280x720_00006
+bounds:982,897,500,476
+offsets:0,12,500,500
+rotate:90
+Green_Blast_Fx/RENDER HD 1280x720_00007
+bounds:2,419,500,474
+offsets:0,13,500,500
+rotate:90
+Green_Blast_Fx/RENDER HD 1280x720_00008
+bounds:478,419,500,442
+offsets:0,34,500,500
+rotate:90
+Green_Blast_Fx/RENDER HD 1280x720_00009
+bounds:922,37,412,435
+offsets:42,37,500,500
+Green_Blast_Fx/RENDER HD 1280x720_00010
+bounds:1346,461,413,434
+offsets:41,38,500,500
+Green_Blast_Fx/RENDER HD 1280x720_00017
+bounds:1460,1467,411,432
+offsets:36,42,500,500
+Green_Blast_Fx/RENDER HD 1280x720_00018
+bounds:1460,1056,409,438
+offsets:35,37,500,500
+rotate:90
+Green_Blast_Fx/RENDER HD 1280x720_00019
+bounds:1336,47,412,431
+offsets:33,45,500,500
+rotate:90
+Green_Blast_Fx/RENDER HD 1280x720_00020
+bounds:423,2,412,415
+offsets:31,60,500,500
+Green_Blast_Fx/RENDER HD 1280x720_00022
+bounds:2,5,412,419
+offsets:27,56,500,500
+rotate:90
+Green_Blast_Fx/RENDER HD 1280x720_00026
+bounds:922,474,422,421
+offsets:16,53,500,500
+
+Frame_Glow_2.png
+size:1934,1258
+filter:Linear,Linear
+pma:true
+Green_Blast_Fx/RENDER HD 1280x720_00011
+bounds:855,827,409,429
+offsets:42,41,500,500
+Green_Blast_Fx/RENDER HD 1280x720_00012
+bounds:816,2,397,417
+offsets:47,48,500,500
+Green_Blast_Fx/RENDER HD 1280x720_00013
+bounds:2,2,399,419
+offsets:45,47,500,500
+Green_Blast_Fx/RENDER HD 1280x720_00014
+bounds:824,421,404,415
+offsets:42,51,500,500
+rotate:90
+Green_Blast_Fx/RENDER HD 1280x720_00015
+bounds:2,423,409,420
+offsets:39,49,500,500
+Green_Blast_Fx/RENDER HD 1280x720_00016
+bounds:2,845,411,426
+offsets:38,46,500,500
+rotate:90
+Green_Blast_Fx/RENDER HD 1280x720_00021
+bounds:413,425,409,418
+offsets:31,58,500,500
+Green_Blast_Fx/RENDER HD 1280x720_00023
+bounds:1241,404,397,421
+offsets:28,54,500,500
+Green_Blast_Fx/RENDER HD 1280x720_00024
+bounds:413,4,401,419
+offsets:26,55,500,500
+Green_Blast_Fx/RENDER HD 1280x720_00025
+bounds:430,845,411,423
+offsets:22,52,500,500
+rotate:90
+Green_Blast_Fx/RENDER HD 1280x720_00027
+bounds:1266,870,431,386
+offsets:12,76,500,500
+Green_Blast_Fx/RENDER HD 1280x720_00028
+bounds:1215,20,382,382
+offsets:33,76,500,500
+Green_Blast_Fx/RENDER HD 1280x720_00029
+bounds:1599,42,333,360
+offsets:61,84,500,500

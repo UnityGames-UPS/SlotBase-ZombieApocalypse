@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0adcec1786afd40d5871679ca6450029
+guid: 0929c366da08a4c418711ffe45e73158
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -142,8 +142,8 @@ TextureImporter:
       name: wild_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 156
+        x: 73
+        y: 73
         width: 491
         height: 237
       alignment: 0

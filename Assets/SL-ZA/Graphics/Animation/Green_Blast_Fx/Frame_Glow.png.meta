@@ -1,0 +1,5980 @@
+fileFormatVersion: 2
+guid: a6d147de9854842259bcc2b3a160cfb6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4043412047095717081
+    second: Frame_Glow_0
+  - first:
+      213: 6583004340663504842
+    second: Frame_Glow_1
+  - first:
+      213: -1773172347565574971
+    second: Frame_Glow_2
+  - first:
+      213: -8450548858325366320
+    second: Frame_Glow_3
+  - first:
+      213: 6800733120407555864
+    second: Frame_Glow_4
+  - first:
+      213: -7423253338917161462
+    second: Frame_Glow_5
+  - first:
+      213: -6519732906310533881
+    second: Frame_Glow_6
+  - first:
+      213: 9130071582553450423
+    second: Frame_Glow_7
+  - first:
+      213: -8642488396956153215
+    second: Frame_Glow_8
+  - first:
+      213: -6864975976881997159
+    second: Frame_Glow_9
+  - first:
+      213: 7260037689282243132
+    second: Frame_Glow_10
+  - first:
+      213: 3027852041737087906
+    second: Frame_Glow_11
+  - first:
+      213: 2116783020625039718
+    second: Frame_Glow_12
+  - first:
+      213: 1132150270753180466
+    second: Frame_Glow_13
+  - first:
+      213: -6114969326498673775
+    second: Frame_Glow_14
+  - first:
+      213: -8678510309404546482
+    second: Frame_Glow_15
+  - first:
+      213: -8611762318404957569
+    second: Frame_Glow_16
+  - first:
+      213: 2241818967020995854
+    second: Frame_Glow_17
+  - first:
+      213: -156838412647645414
+    second: Frame_Glow_18
+  - first:
+      213: -8783786668445581267
+    second: Frame_Glow_19
+  - first:
+      213: 3474642541703825253
+    second: Frame_Glow_20
+  - first:
+      213: 7831667579286039003
+    second: Frame_Glow_21
+  - first:
+      213: 2331646340383610855
+    second: Frame_Glow_22
+  - first:
+      213: 7619442781003443596
+    second: Frame_Glow_23
+  - first:
+      213: 8146989315420334585
+    second: Frame_Glow_24
+  - first:
+      213: 2658816696193342162
+    second: Frame_Glow_25
+  - first:
+      213: 8122108456218936644
+    second: Frame_Glow_26
+  - first:
+      213: -7881652139820745002
+    second: Frame_Glow_27
+  - first:
+      213: -6606032612642553481
+    second: Frame_Glow_28
+  - first:
+      213: -3149318264015489997
+    second: Frame_Glow_29
+  - first:
+      213: 5354687869113539946
+    second: Frame_Glow_30
+  - first:
+      213: -804164887531602560
+    second: Frame_Glow_31
+  - first:
+      213: -8206593345878633406
+    second: Frame_Glow_32
+  - first:
+      213: 8109890707820173782
+    second: Frame_Glow_33
+  - first:
+      213: -2542838621313307391
+    second: Frame_Glow_34
+  - first:
+      213: -9194037478655439338
+    second: Frame_Glow_35
+  - first:
+      213: -4965727036555878865
+    second: Frame_Glow_36
+  - first:
+      213: -6230448939156616477
+    second: Frame_Glow_37
+  - first:
+      213: 9068100693542555591
+    second: Frame_Glow_38
+  - first:
+      213: -7353193583601598466
+    second: Frame_Glow_39
+  - first:
+      213: 8509106767467149919
+    second: Frame_Glow_40
+  - first:
+      213: 3365445097763537835
+    second: Frame_Glow_41
+  - first:
+      213: -8555691531469375986
+    second: Frame_Glow_42
+  - first:
+      213: 5165509904664481389
+    second: Frame_Glow_43
+  - first:
+      213: 7745038531037391215
+    second: Frame_Glow_44
+  - first:
+      213: -6573034099356172173
+    second: Frame_Glow_45
+  - first:
+      213: -1905269389507278964
+    second: Frame_Glow_46
+  - first:
+      213: -3395310409683866262
+    second: Frame_Glow_47
+  - first:
+      213: 944162409997883414
+    second: Frame_Glow_48
+  - first:
+      213: -6015062732652050791
+    second: Frame_Glow_49
+  - first:
+      213: 1523093134693548982
+    second: Frame_Glow_50
+  - first:
+      213: -162516054981085396
+    second: Frame_Glow_51
+  - first:
+      213: -7614538898218037622
+    second: Frame_Glow_52
+  - first:
+      213: -8878188384495192251
+    second: Frame_Glow_53
+  - first:
+      213: 4461780910624870116
+    second: Frame_Glow_54
+  - first:
+      213: 8574975723201810215
+    second: Frame_Glow_55
+  - first:
+      213: -8173040126298457879
+    second: Frame_Glow_56
+  - first:
+      213: 8252323926219099717
+    second: Frame_Glow_57
+  - first:
+      213: -1350316088026223037
+    second: Frame_Glow_58
+  - first:
+      213: -4670435295133358872
+    second: Frame_Glow_59
+  - first:
+      213: 689617219944557154
+    second: Frame_Glow_60
+  - first:
+      213: 8823001141874724347
+    second: Frame_Glow_61
+  - first:
+      213: -8364388369516732579
+    second: Frame_Glow_62
+  - first:
+      213: -1447679642610122716
+    second: Frame_Glow_63
+  - first:
+      213: 8888158207800943543
+    second: Frame_Glow_64
+  - first:
+      213: -7483739305759393753
+    second: Frame_Glow_65
+  - first:
+      213: -2533689111516155158
+    second: Frame_Glow_66
+  - first:
+      213: -2912720775569033043
+    second: Frame_Glow_67
+  - first:
+      213: -4760665247262596867
+    second: Frame_Glow_68
+  - first:
+      213: -6859126519875360613
+    second: Frame_Glow_69
+  - first:
+      213: 5195446254314704028
+    second: Frame_Glow_70
+  - first:
+      213: 3037827935869944596
+    second: Frame_Glow_71
+  - first:
+      213: -6165054657606210734
+    second: Frame_Glow_72
+  - first:
+      213: -6797551813569943790
+    second: Frame_Glow_73
+  - first:
+      213: -5289842942848741467
+    second: Frame_Glow_74
+  - first:
+      213: -3838077863641025767
+    second: Frame_Glow_75
+  - first:
+      213: 4869502101133217570
+    second: Frame_Glow_76
+  - first:
+      213: 5644808236371553797
+    second: Frame_Glow_77
+  - first:
+      213: -6627638223743408985
+    second: Frame_Glow_78
+  - first:
+      213: -5772879589324389349
+    second: Frame_Glow_79
+  - first:
+      213: -2480381218823195896
+    second: Frame_Glow_80
+  - first:
+      213: 1716049125510213191
+    second: Frame_Glow_81
+  - first:
+      213: -5433951291571530311
+    second: Frame_Glow_82
+  - first:
+      213: -5881932819776686120
+    second: Frame_Glow_83
+  - first:
+      213: -6219770348227752512
+    second: Frame_Glow_84
+  - first:
+      213: 2543969453369919822
+    second: Frame_Glow_85
+  - first:
+      213: -7905595427909841679
+    second: Frame_Glow_86
+  - first:
+      213: -5588956734018021302
+    second: Frame_Glow_87
+  - first:
+      213: -1517524216022024753
+    second: Frame_Glow_88
+  - first:
+      213: -4289590194679786160
+    second: Frame_Glow_89
+  - first:
+      213: 891388139619564828
+    second: Frame_Glow_90
+  - first:
+      213: -5795471359462636593
+    second: Frame_Glow_91
+  - first:
+      213: -8352501561693447954
+    second: Frame_Glow_92
+  - first:
+      213: 2278178633869430192
+    second: Frame_Glow_93
+  - first:
+      213: 4185492504754353687
+    second: Frame_Glow_94
+  - first:
+      213: -786036042654660312
+    second: Frame_Glow_95
+  - first:
+      213: -4336135585844173192
+    second: Frame_Glow_96
+  - first:
+      213: -6696772205419676999
+    second: Frame_Glow_97
+  - first:
+      213: 7544573761880715783
+    second: Frame_Glow_98
+  - first:
+      213: 7936357870248343603
+    second: Frame_Glow_99
+  - first:
+      213: -2231806909871050551
+    second: Frame_Glow_100
+  - first:
+      213: -8674897008527019534
+    second: Frame_Glow_101
+  - first:
+      213: -7130774877752210557
+    second: Frame_Glow_102
+  - first:
+      213: 2207572760580644594
+    second: Frame_Glow_103
+  - first:
+      213: 4674464877513781887
+    second: Frame_Glow_104
+  - first:
+      213: -5683138568296664914
+    second: Frame_Glow_105
+  - first:
+      213: -1512003193948777624
+    second: Frame_Glow_106
+  - first:
+      213: 8782126792610522723
+    second: Frame_Glow_107
+  - first:
+      213: -3839436655500244780
+    second: Frame_Glow_108
+  - first:
+      213: 712971889634960363
+    second: Frame_Glow_109
+  - first:
+      213: -8894559992973095129
+    second: Frame_Glow_110
+  - first:
+      213: 221375317236907349
+    second: Frame_Glow_111
+  - first:
+      213: 3196802881305746700
+    second: Frame_Glow_112
+  - first:
+      213: 5415639018556486628
+    second: Frame_Glow_113
+  - first:
+      213: 7780088889242600073
+    second: Frame_Glow_114
+  - first:
+      213: 7915767115026109974
+    second: Frame_Glow_115
+  - first:
+      213: -6595205693604683822
+    second: Frame_Glow_116
+  - first:
+      213: 7500053058577003389
+    second: Frame_Glow_117
+  - first:
+      213: -5242452438752799519
+    second: Frame_Glow_118
+  - first:
+      213: 4370914723234731133
+    second: Frame_Glow_119
+  - first:
+      213: -1846879083446070450
+    second: Frame_Glow_120
+  - first:
+      213: 9062584322394810572
+    second: Frame_Glow_121
+  - first:
+      213: -656560287759582008
+    second: Frame_Glow_122
+  - first:
+      213: -3315150468166687014
+    second: Frame_Glow_123
+  - first:
+      213: -7248461285466994172
+    second: Frame_Glow_124
+  - first:
+      213: -4600710936322932235
+    second: Frame_Glow_125
+  - first:
+      213: 6635309477138672279
+    second: Frame_Glow_126
+  - first:
+      213: -523031272566173390
+    second: Frame_Glow_127
+  - first:
+      213: 8394632989030220825
+    second: Frame_Glow_128
+  - first:
+      213: -2072263571738853608
+    second: Frame_Glow_129
+  - first:
+      213: -7153900136980388234
+    second: Frame_Glow_130
+  - first:
+      213: 127806427073288081
+    second: Frame_Glow_131
+  - first:
+      213: 1877985173940167002
+    second: Frame_Glow_132
+  - first:
+      213: -6802396043641106156
+    second: Frame_Glow_133
+  - first:
+      213: -3899208767335389529
+    second: Frame_Glow_134
+  - first:
+      213: -4260388435899833777
+    second: Frame_Glow_135
+  - first:
+      213: -5811439458675506432
+    second: Frame_Glow_136
+  - first:
+      213: 8440077459047933595
+    second: Frame_Glow_137
+  - first:
+      213: -6334861549826319848
+    second: Frame_Glow_138
+  - first:
+      213: 3301748357338127712
+    second: Frame_Glow_139
+  - first:
+      213: -4023569851825647988
+    second: Frame_Glow_140
+  - first:
+      213: 7547895786332951458
+    second: Frame_Glow_141
+  - first:
+      213: -4864822122054869838
+    second: Frame_Glow_142
+  - first:
+      213: -1168932224565347776
+    second: Frame_Glow_143
+  - first:
+      213: -9095175125310376770
+    second: Frame_Glow_144
+  - first:
+      213: 5759608800195848434
+    second: Frame_Glow_145
+  - first:
+      213: 6026138563604321881
+    second: Frame_Glow_146
+  - first:
+      213: 5333846395650191065
+    second: Frame_Glow_147
+  - first:
+      213: 4770270699272968252
+    second: Frame_Glow_148
+  - first:
+      213: 6652502709743102656
+    second: Frame_Glow_149
+  - first:
+      213: -440292669809064691
+    second: Frame_Glow_150
+  - first:
+      213: 4971922317491174850
+    second: Frame_Glow_151
+  - first:
+      213: -2550351682685513502
+    second: Frame_Glow_152
+  - first:
+      213: -4048405717685733231
+    second: Frame_Glow_153
+  - first:
+      213: -3146895763467163583
+    second: Frame_Glow_154
+  - first:
+      213: 8282386881702157534
+    second: Frame_Glow_155
+  - first:
+      213: 8678460201251826224
+    second: Frame_Glow_156
+  - first:
+      213: -5338831708886436246
+    second: Frame_Glow_157
+  - first:
+      213: -1280240252969429877
+    second: Frame_Glow_158
+  - first:
+      213: 8097842610132114644
+    second: Frame_Glow_159
+  - first:
+      213: 8485747116570537875
+    second: Frame_Glow_160
+  - first:
+      213: -7331091547990313693
+    second: Frame_Glow_161
+  - first:
+      213: 6473539628674746988
+    second: Frame_Glow_162
+  - first:
+      213: -4740044911614821556
+    second: Frame_Glow_163
+  - first:
+      213: -7256401498436066150
+    second: Frame_Glow_164
+  - first:
+      213: 8135610628817350697
+    second: Frame_Glow_165
+  - first:
+      213: -7370982470819113623
+    second: Frame_Glow_166
+  - first:
+      213: -1203882431813388250
+    second: Frame_Glow_167
+  - first:
+      213: 3917714929954023206
+    second: Frame_Glow_168
+  - first:
+      213: 6578249800782213835
+    second: Frame_Glow_169
+  - first:
+      213: -8404054029998236304
+    second: Frame_Glow_170
+  - first:
+      213: 3796598326433235698
+    second: Frame_Glow_171
+  - first:
+      213: 8835730451325016590
+    second: Frame_Glow_172
+  - first:
+      213: 5713519463089941752
+    second: Frame_Glow_173
+  - first:
+      213: -8162913084065805513
+    second: Frame_Glow_174
+  - first:
+      213: 5988425274078103316
+    second: Frame_Glow_175
+  - first:
+      213: -6700857755085493967
+    second: Frame_Glow_176
+  - first:
+      213: 1818269486721971611
+    second: Frame_Glow_177
+  - first:
+      213: -5933610782907405547
+    second: Frame_Glow_178
+  - first:
+      213: -2991112640254937171
+    second: Frame_Glow_179
+  - first:
+      213: -5213585432202341466
+    second: Frame_Glow_180
+  - first:
+      213: 1883001780394860288
+    second: Frame_Glow_181
+  - first:
+      213: 3392268845454804546
+    second: Frame_Glow_182
+  - first:
+      213: -265624934964014051
+    second: Frame_Glow_183
+  - first:
+      213: -6851569717269629053
+    second: Frame_Glow_184
+  - first:
+      213: 6319984340483673160
+    second: Frame_Glow_185
+  - first:
+      213: 1409952037773067181
+    second: Frame_Glow_186
+  - first:
+      213: 3455826019396801106
+    second: Frame_Glow_187
+  - first:
+      213: 5263587250660012411
+    second: Frame_Glow_188
+  - first:
+      213: -373164602108144892
+    second: Frame_Glow_189
+  - first:
+      213: 7699014754163993286
+    second: Frame_Glow_190
+  - first:
+      213: 3220774451066171468
+    second: Frame_Glow_191
+  - first:
+      213: 3417107968849653191
+    second: Frame_Glow_192
+  - first:
+      213: 5406818012438757842
+    second: Frame_Glow_193
+  - first:
+      213: 1999275696028189384
+    second: Frame_Glow_194
+  - first:
+      213: -1427415398583093366
+    second: Frame_Glow_195
+  - first:
+      213: 8145125945564140402
+    second: Frame_Glow_196
+  - first:
+      213: 4900735890377332347
+    second: Frame_Glow_197
+  - first:
+      213: -6385154696565410020
+    second: Frame_Glow_198
+  - first:
+      213: -5141215938953816156
+    second: Frame_Glow_199
+  - first:
+      213: 2959467883671992407
+    second: Frame_Glow_200
+  - first:
+      213: 2648699361939805042
+    second: Frame_Glow_201
+  - first:
+      213: -3664666527050865749
+    second: Frame_Glow_202
+  - first:
+      213: 1934474049521144571
+    second: Frame_Glow_203
+  - first:
+      213: 6043263628151663337
+    second: Frame_Glow_204
+  - first:
+      213: -7911984020738375214
+    second: Frame_Glow_205
+  - first:
+      213: 7982201159483315427
+    second: Frame_Glow_206
+  - first:
+      213: -7295004155470143851
+    second: Frame_Glow_207
+  - first:
+      213: 6783719823333152379
+    second: Frame_Glow_208
+  - first:
+      213: -8562535259487913986
+    second: Frame_Glow_209
+  - first:
+      213: 6787182589109304491
+    second: Frame_Glow_210
+  - first:
+      213: -551161916341278175
+    second: Frame_Glow_211
+  - first:
+      213: 3934200521378761422
+    second: Frame_Glow_212
+  - first:
+      213: 850665628684168919
+    second: Frame_Glow_213
+  - first:
+      213: 2904743384850126105
+    second: Frame_Glow_214
+  - first:
+      213: 9219917601535031706
+    second: Frame_Glow_215
+  - first:
+      213: 4957324891871647233
+    second: Frame_Glow_216
+  - first:
+      213: 1751626256542092862
+    second: Frame_Glow_217
+  - first:
+      213: -8924062534613847065
+    second: Frame_Glow_218
+  - first:
+      213: -7612733621112930503
+    second: Frame_Glow_219
+  - first:
+      213: 1642855468313372909
+    second: Frame_Glow_220
+  - first:
+      213: -9157947570126409314
+    second: Frame_Glow_221
+  - first:
+      213: 7662127680708070071
+    second: Frame_Glow_222
+  - first:
+      213: -1441409628013138374
+    second: Frame_Glow_223
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Frame_Glow_0
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 1880
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72323548a2ae2e7c0800000000000000
+      internalID: -4043412047095717081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1870
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acf4a10d1978b5b50800000000000000
+      internalID: 6583004340663504842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_2
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 1842
+        width: 82
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c4fec1052d6467e0800000000000000
+      internalID: -1773172347565574971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_3
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 1877
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d90f66169e99ba80800000000000000
+      internalID: -8450548858325366320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_4
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1851
+        width: 59
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81f402ebdbe016e50800000000000000
+      internalID: 6800733120407555864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_5
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1887
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a063c181b6e4bf890800000000000000
+      internalID: -7423253338917161462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_6
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1882
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70d7fe8f6714585a0800000000000000
+      internalID: -6519732906310533881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_7
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1801
+        width: 76
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b7acfb2bb784be70800000000000000
+      internalID: 9130071582553450423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_8
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1824
+        width: 136
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18a4ef3c796bf0880800000000000000
+      internalID: -8642488396956153215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_9
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1839
+        width: 46
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99abb52a8b4bab0a0800000000000000
+      internalID: -6864975976881997159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_10
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 1860
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3aad9520d5d0c460800000000000000
+      internalID: 7260037689282243132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_11
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1794
+        width: 46
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ab2e24c367150a20800000000000000
+      internalID: 3027852041737087906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_12
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 1428
+        width: 414
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6611fea21f2506d10800000000000000
+      internalID: 2116783020625039718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_13
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1815
+        width: 48
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23b0b904ca436bf00800000000000000
+      internalID: 1132150270753180466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_14
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 1818
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19b03a9cbc3432ba0800000000000000
+      internalID: -6114969326498673775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_15
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1791
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4a6064badcbf8780800000000000000
+      internalID: -8678510309404546482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_16
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 1780
+        width: 118
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7ac0696ccfdc7880800000000000000
+      internalID: -8611762318404957569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_17
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 1841
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e05050c097a8c1f10800000000000000
+      internalID: 2241818967020995854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_18
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 1831
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1f300f6b4cc2ddf0800000000000000
+      internalID: -156838412647645414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_19
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 1837
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d204d744098b91680800000000000000
+      internalID: -8783786668445581267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_20
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 1743
+        width: 65
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56787b37bf8683030800000000000000
+      internalID: 3474642541703825253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_21
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 1826
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd9a94e5b2cafac60800000000000000
+      internalID: 7831667579286039003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_22
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 1778
+        width: 75
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e797643efbab5020800000000000000
+      internalID: 2331646340383610855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_23
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 1797
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8def1cf6d2bdb960800000000000000
+      internalID: 7619442781003443596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_24
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 1793
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f928862e9bef0170800000000000000
+      internalID: 8146989315420334585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_25
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1797
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2da5b7bb2b306e420800000000000000
+      internalID: 2658816696193342162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_26
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1702
+        width: 82
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4454020bb9687b070800000000000000
+      internalID: 8122108456218936644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_27
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 1816
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6de79ca332fbe9290800000000000000
+      internalID: -7881652139820745002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_28
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 1788
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7718bccc658a254a0800000000000000
+      internalID: -6606032612642553481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_29
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 1801
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 334f4b489bf5b44d0800000000000000
+      internalID: -3149318264015489997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_30
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 1792
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6d1b912f3caf4a40800000000000000
+      internalID: 5354687869113539946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_31
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 1793
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08d36d1ab4807d4f0800000000000000
+      internalID: -804164887531602560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_32
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1656
+        width: 76
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 244d1d215d25c1e80800000000000000
+      internalID: -8206593345878633406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_33
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 1775
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d9dcd671ae1c8070800000000000000
+      internalID: 8109890707820173782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_34
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 1774
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10de9771fb506bcd0800000000000000
+      internalID: -2542838621313307391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_35
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 1761
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61e4d1110a7386080800000000000000
+      internalID: -9194037478655439338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_36
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1720
+        width: 61
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2e988ed191361bb0800000000000000
+      internalID: -4965727036555878865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_37
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 1735
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ea4c5e33bff889a0800000000000000
+      internalID: -6230448939156616477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_38
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1760
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cfc312398d58dd70800000000000000
+      internalID: 9068100693542555591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_39
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1747
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: effbeb4056534f990800000000000000
+      internalID: -7353193583601598466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_40
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1730
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5a70c6958b661670800000000000000
+      internalID: 8509106767467149919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_41
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 1743
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba3864b4c7674be20800000000000000
+      internalID: 3365445097763537835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_42
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 1719
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0633f2d1e3144980800000000000000
+      internalID: -8555691531469375986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_43
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 1711
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6ec947e3e39fa740800000000000000
+      internalID: 5165509904664481389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_44
+      rect:
+        serializedVersion: 2
+        x: 1547
+        y: 1722
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f69623e4287eb7b60800000000000000
+      internalID: 7745038531037391215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_45
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 1725
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3708853ef44e7c4a0800000000000000
+      internalID: -6573034099356172173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_46
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1638
+        width: 59
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c874ef4b59f1f85e0800000000000000
+      internalID: -1905269389507278964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_47
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 1691
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6d6b98eb2f61e0d0800000000000000
+      internalID: -3395310409683866262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_48
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 1678
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6185332a5b65a1d00800000000000000
+      internalID: 944162409997883414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_49
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 1707
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99685965054368ca0800000000000000
+      internalID: -6015062732652050791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_50
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 1705
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b3ce35e22d132510800000000000000
+      internalID: 1523093134693548982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_51
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 1592
+        width: 73
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c27fd805280aebdf0800000000000000
+      internalID: -162516054981085396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_52
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 1704
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8ec1533739b35690800000000000000
+      internalID: -7614538898218037622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_53
+      rect:
+        serializedVersion: 2
+        x: 1547
+        y: 1689
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5473a25f3b65ac480800000000000000
+      internalID: -8878188384495192251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_54
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 1707
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ee0a63491e6bed30800000000000000
+      internalID: 4461780910624870116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_55
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1651
+        width: 46
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72fca03fcfe600770800000000000000
+      internalID: 8574975723201810215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_56
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 1672
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e877f8ce47839e80800000000000000
+      internalID: -8173040126298457879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_57
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 1689
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54e0fb163e4268270800000000000000
+      internalID: 8252323926219099717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_58
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 1665
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34ea3b61ca6b24de0800000000000000
+      internalID: -1350316088026223037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_59
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 1685
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e4212718d74f2fb0800000000000000
+      internalID: -4670435295133358872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_60
+      rect:
+        serializedVersion: 2
+        x: 1578
+        y: 1687
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26aa9c13533029900800000000000000
+      internalID: 689617219944557154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_61
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 1682
+        width: 35
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfd0f42dac8917a70800000000000000
+      internalID: 8823001141874724347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_62
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 1683
+        width: 31
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5fdb872819bbeb80800000000000000
+      internalID: -8364388369516732579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_63
+      rect:
+        serializedVersion: 2
+        x: 1721
+        y: 1658
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 420c8a1090fc8ebe0800000000000000
+      internalID: -1447679642610122716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_64
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 1669
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b3a27b6cc4195b70800000000000000
+      internalID: 8888158207800943543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_65
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1644
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 728359080ca642890800000000000000
+      internalID: -7483739305759393753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_66
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 1636
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae2fdc85d2786dcd0800000000000000
+      internalID: -2533689111516155158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_67
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 1626
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da8be4a03efe397d0800000000000000
+      internalID: -2912720775569033043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_68
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1648
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df0ad524e28beedb0800000000000000
+      internalID: -4760665247262596867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_69
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 1651
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b982e5975cc7fc0a0800000000000000
+      internalID: -6859126519875360613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_70
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 1550
+        width: 55
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9ccf0677dee91840800000000000000
+      internalID: 5195446254314704028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_71
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 1653
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 413494e9968882a20800000000000000
+      internalID: 3037827935869944596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_72
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1558
+        width: 88
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25ba388e373517aa0800000000000000
+      internalID: -6165054657606210734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_73
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 1625
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 217e9d9f3ae3aa1a0800000000000000
+      internalID: -6797551813569943790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_74
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 1592
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5afc4e9ced3b696b0800000000000000
+      internalID: -5289842942848741467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_75
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1632
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 913f26d94886cbac0800000000000000
+      internalID: -3838077863641025767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_76
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 1612
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22f401b7c52f39340800000000000000
+      internalID: 4869502101133217570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_77
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 1623
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50e202afe23665e40800000000000000
+      internalID: 5644808236371553797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_78
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 1605
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a429f57626e504a0800000000000000
+      internalID: -6627638223743408985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_79
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 1630
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b14873b799c92efa0800000000000000
+      internalID: -5772879589324389349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_80
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 1632
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8033e705c6ae39dd0800000000000000
+      internalID: -2480381218823195896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_81
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 1628
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ee72f6691a0d710800000000000000
+      internalID: 1716049125510213191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_82
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1614
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b59a13371ab694b0800000000000000
+      internalID: -5433951291571530311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_83
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 1602
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d7bf74a34d2f5ea0800000000000000
+      internalID: -5881932819776686120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_84
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 1604
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cd806172dfeea9a0800000000000000
+      internalID: -6219770348227752512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_85
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1483
+        width: 91
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e490f834dbefd4320800000000000000
+      internalID: 2543969453369919822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_86
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 1565
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fc4b7d08dea94290800000000000000
+      internalID: -7905595427909841679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_87
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 1565
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4814d346790072b0800000000000000
+      internalID: -5588956734018021302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_88
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 1581
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcd34f504cba0fae0800000000000000
+      internalID: -1517524216022024753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_89
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 1577
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 055dc16f1705874c0800000000000000
+      internalID: -4289590194679786160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_90
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 1514
+        width: 83
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1d350b4ac8de5c00800000000000000
+      internalID: 891388139619564828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_91
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 1582
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc387491189529fa0800000000000000
+      internalID: -5795471359462636593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_92
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 1577
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee8dd554514f51c80800000000000000
+      internalID: -8352501561693447954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_93
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 1580
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bd0caea567bd9f10800000000000000
+      internalID: 2278178633869430192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_94
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1489
+        width: 88
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71671f3e14bd51a30800000000000000
+      internalID: 4185492504754353687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_95
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1565
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8294ae042607715f0800000000000000
+      internalID: -786036042654660312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_96
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 1546
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 876e3d398a3f2d3c0800000000000000
+      internalID: -4336135585844173192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_97
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1551
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ba304209294013a0800000000000000
+      internalID: -6696772205419676999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_98
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1483
+        width: 118
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 702f1a21dd5b3b860800000000000000
+      internalID: 7544573761880715783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_99
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1565
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33837823f6b932e60800000000000000
+      internalID: 7936357870248343603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_100
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 1501
+        width: 101
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c0bfd9a0770701e0800000000000000
+      internalID: -2231806909871050551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_101
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 1559
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f1f5afd1239c9780800000000000000
+      internalID: -8674897008527019534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_102
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 1552
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38bcc4677066a0d90800000000000000
+      internalID: -7130774877752210557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_103
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 1552
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fedc32cabfd2ae10800000000000000
+      internalID: 2207572760580644594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_104
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 1544
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f72bf3b2a090fd040800000000000000
+      internalID: 4674464877513781887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_105
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1525
+        width: 49
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea0fa5b259f6121b0800000000000000
+      internalID: -5683138568296664914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_106
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1542
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8635d652b19440be0800000000000000
+      internalID: -1512003193948777624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_107
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 1553
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 366adf5c9c160e970800000000000000
+      internalID: 8782126792610522723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_108
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 1508
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d84b4b34b497bac0800000000000000
+      internalID: -3839436655500244780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_109
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1525
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be3e788f72cf4e900800000000000000
+      internalID: 712971889634960363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_110
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 1511
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72f0071dfcc209480800000000000000
+      internalID: -8894559992973095129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_111
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 1490
+        width: 74
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55df1f99dab721300800000000000000
+      internalID: 221375317236907349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_112
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 1452
+        width: 143
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0d9c2d78435d5c20800000000000000
+      internalID: 3196802881305746700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_113
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 1511
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e3fdcc7ef6382b40800000000000000
+      internalID: 5415639018556486628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_114
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 1465
+        width: 69
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 982c444cf9d68fb60800000000000000
+      internalID: 7780088889242600073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_115
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 1441
+        width: 120
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61699d760447add60800000000000000
+      internalID: 7915767115026109974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_116
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 1483
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2df1f045d5f1974a0800000000000000
+      internalID: -6595205693604683822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_117
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 1496
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d737011158a851860800000000000000
+      internalID: 7500053058577003389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_118
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1487
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e4524c58411f37b0800000000000000
+      internalID: -5242452438752799519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_119
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 981
+        width: 476
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d745eed58cb98ac30800000000000000
+      internalID: 4370914723234731133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_120
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 981
+        width: 444
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e43191042419e56e0800000000000000
+      internalID: -1846879083446070450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_121
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 1342
+        width: 74
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc8ed53fc64c4cd70800000000000000
+      internalID: 9062584322394810572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_122
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 1386
+        width: 51
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cc367a95ed63e6f0800000000000000
+      internalID: -656560287759582008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_123
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 1411
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad664ffa6383ef1d0800000000000000
+      internalID: -3315150468166687014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_124
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 1005
+        width: 477
+        height: 436
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40a81976dda486b90800000000000000
+      internalID: -7248461285466994172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_125
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 1391
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f1873e67cdf620c0800000000000000
+      internalID: -4600710936322932235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_126
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 1392
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79a22a760da551c50800000000000000
+      internalID: 6635309477138672279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_127
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 1397
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 231d54824d1ddb8f0800000000000000
+      internalID: -523031272566173390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_128
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 1373
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9140ce21a3abf7470800000000000000
+      internalID: 8394632989030220825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_129
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 1285
+        width: 80
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ff585c247dd33e0800000000000000
+      internalID: -2072263571738853608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_130
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 1266
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6766aa87abd38bc90800000000000000
+      internalID: -7153900136980388234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_131
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 1254
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19717bda44f06c100800000000000000
+      internalID: 127806427073288081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_132
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 1112
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a516722d091ff0a10800000000000000
+      internalID: 1877985173940167002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_133
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 1018
+        width: 98
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 411df35c6d80991a0800000000000000
+      internalID: -6802396043641106156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_134
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 1029
+        width: 44
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a6a2e5f84a33e9c0800000000000000
+      internalID: -3899208767335389529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_135
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 1025
+        width: 101
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4222014a4f00e4c0800000000000000
+      internalID: -4260388435899833777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_136
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 1005
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00345f74a9e995fa0800000000000000
+      internalID: -5811439458675506432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_137
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 503
+        width: 478
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9665574bbd212570800000000000000
+      internalID: 8440077459047933595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_138
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 479
+        width: 478
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81a5255ebfc0618a0800000000000000
+      internalID: -6334861549826319848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_139
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 503
+        width: 502
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06d5ed833aa22dd20800000000000000
+      internalID: 3301748357338127712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_140
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 764
+        width: 211
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8e06fc99886928c0800000000000000
+      internalID: -4023569851825647988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_141
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 788
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a31b0a2a338fb860800000000000000
+      internalID: 7547895786332951458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_142
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 822
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bc157f0e0eac7cb0800000000000000
+      internalID: -4864822122054869838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_143
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 714
+        width: 97
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04a7644c55e17cfe0800000000000000
+      internalID: -1168932224565347776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_144
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 764
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb4f7ed696277c180800000000000000
+      internalID: -9095175125310376770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_145
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 753
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f823e420bd3eef40800000000000000
+      internalID: 5759608800195848434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_146
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 701
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9561be2881521a350800000000000000
+      internalID: 6026138563604321881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_147
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 748
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9de2a337901a50a40800000000000000
+      internalID: 5333846395650191065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_148
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 747
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c389e905de7633240800000000000000
+      internalID: 4770270699272968252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_149
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 584
+        width: 64
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0caaf81d7ff625c50800000000000000
+      internalID: 6652502709743102656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_150
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 684
+        width: 52
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0582da4624c3e9f0800000000000000
+      internalID: -440292669809064691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_151
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 713
+        width: 35
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cdf5e06101dff440800000000000000
+      internalID: 4971922317491174850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_152
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 695
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e0d53d28a45b9cd0800000000000000
+      internalID: -2550351682685513502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_153
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 697
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1987eaaf27c21d7c0800000000000000
+      internalID: -4048405717685733231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_154
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 681
+        width: 11
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 148ab51e9faf354d0800000000000000
+      internalID: -3146895763467163583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_155
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 671
+        width: 37
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edc5638acf2f0f270800000000000000
+      internalID: 8282386881702157534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_156
+      rect:
+        serializedVersion: 2
+        x: 1825
+        y: 692
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03aeaf49295107870800000000000000
+      internalID: 8678460201251826224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_157
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 676
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a667b3cd8d8a8e5b0800000000000000
+      internalID: -5338831708886436246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_158
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 679
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b84d99ed54cab3ee0800000000000000
+      internalID: -1280240252969429877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_159
+      rect:
+        serializedVersion: 2
+        x: 1805
+        y: 678
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dc52ff13f0516070800000000000000
+      internalID: 8097842610132114644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_160
+      rect:
+        serializedVersion: 2
+        x: 1817
+        y: 672
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39f6bf80b0e63c570800000000000000
+      internalID: 8485747116570537875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_161
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 656
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3253b22341bb24a90800000000000000
+      internalID: -7331091547990313693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_162
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 674
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6a82967ef1a6d950800000000000000
+      internalID: 6473539628674746988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_163
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 621
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4bfcc7444af73eb0800000000000000
+      internalID: -4740044911614821556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_164
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 570
+        width: 51
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a942b1288451c4b90800000000000000
+      internalID: -7256401498436066150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_165
+      rect:
+        serializedVersion: 2
+        x: 1841
+        y: 638
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 920fc8933ce77e070800000000000000
+      internalID: 8135610628817350697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_166
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 641
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9651235fe7205b990800000000000000
+      internalID: -7370982470819113623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_167
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 644
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 628fd648e43fa4fe0800000000000000
+      internalID: -1203882431813388250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_168
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 625
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 627672bc8f48e5630800000000000000
+      internalID: 3917714929954023206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_169
+      rect:
+        serializedVersion: 2
+        x: 1769
+        y: 618
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc2786b3753aa4b50800000000000000
+      internalID: 6578249800782213835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_170
+      rect:
+        serializedVersion: 2
+        x: 1867
+        y: 626
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07dd3c4e26dce5b80800000000000000
+      internalID: -8404054029998236304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_171
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 602
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f245e9001a30b430800000000000000
+      internalID: 3796598326433235698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_172
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 595
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0a54522802de9a70800000000000000
+      internalID: 8835730451325016590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_173
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 596
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fca1ce1eaf7a4f40800000000000000
+      internalID: 5713519463089941752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_174
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 508
+        width: 80
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73b8edb8cc187be80800000000000000
+      internalID: -8162913084065805513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_175
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 557
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41785690f092b1350800000000000000
+      internalID: 5988425274078103316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_176
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 565
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13925b9df55c103a0800000000000000
+      internalID: -6700857755085493967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_177
+      rect:
+        serializedVersion: 2
+        x: 1651
+        y: 480
+        width: 37
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b95befde67acb3910800000000000000
+      internalID: 1818269486721971611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_178
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 539
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51b60693e6497ada0800000000000000
+      internalID: -5933610782907405547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_179
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 556
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da77c6ab6ee6d76d0800000000000000
+      internalID: -2991112640254937171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_180
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 540
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a39d631caf95a7b0800000000000000
+      internalID: -5213585432202341466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_181
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 445
+        width: 140
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00f1dd78424c12a10800000000000000
+      internalID: 1883001780394860288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_182
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 523
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24645fbba82c31f20800000000000000
+      internalID: 3392268845454804546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_183
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 509
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d14dbfb678f405cf0800000000000000
+      internalID: -265624934964014051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_184
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 456
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 387f150b4a55ae0a0800000000000000
+      internalID: -6851569717269629053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_185
+      rect:
+        serializedVersion: 2
+        x: 1757
+        y: 435
+        width: 122
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84c8f80e54815b750800000000000000
+      internalID: 6319984340483673160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_186
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 502
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da34dc978e7219310800000000000000
+      internalID: 1409952037773067181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_187
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 479
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 252d2b3747f85ff20800000000000000
+      internalID: 3455826019396801106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_188
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 1
+        width: 478
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b717ddf77b40c0940800000000000000
+      internalID: 5263587250660012411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_189
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 1
+        width: 478
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 403189085c042daf0800000000000000
+      internalID: -373164602108144892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_190
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 452
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6caaf66b02568da60800000000000000
+      internalID: 7699014754163993286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_191
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 205
+        width: 120
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c40f3718c4d72bc20800000000000000
+      internalID: 3220774451066171468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_192
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 317
+        width: 203
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cda072d7910c6f20800000000000000
+      internalID: 3417107968849653191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_193
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 334
+        width: 65
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d18894f550e80b40800000000000000
+      internalID: 5406818012438757842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_194
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 330
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c205d527aadebb10800000000000000
+      internalID: 1999275696028189384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_195
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 161
+        width: 96
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a87388cf14dc03ce0800000000000000
+      internalID: -1427415398583093366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_196
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 297
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2731b2c84ec490170800000000000000
+      internalID: 8145125945564140402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_197
+      rect:
+        serializedVersion: 2
+        x: 1742
+        y: 305
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b76d2fbb359e20440800000000000000
+      internalID: 4900735890377332347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_198
+      rect:
+        serializedVersion: 2
+        x: 1748
+        y: 307
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c173d4b22af5367a0800000000000000
+      internalID: -6385154696565410020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_199
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 248
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a7d415c75bb6a8b0800000000000000
+      internalID: -5141215938953816156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_200
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 238
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 758327a3c54221920800000000000000
+      internalID: 2959467883671992407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_201
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 246
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 273d939490212c420800000000000000
+      internalID: 2648699361939805042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_202
+      rect:
+        serializedVersion: 2
+        x: 1775
+        y: 236
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba36edab53d742dc0800000000000000
+      internalID: -3664666527050865749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_203
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 225
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf25be416e1a8da10800000000000000
+      internalID: 1934474049521144571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_204
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 214
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eaa400504cfdd350800000000000000
+      internalID: 6043263628151663337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_205
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 224
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d1825fd37cf23290800000000000000
+      internalID: -7911984020738375214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_206
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 193
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e4d6bcb9a976ce60800000000000000
+      internalID: 7982201159483315427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_207
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 202
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59e14360f50f2ca90800000000000000
+      internalID: -7295004155470143851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_208
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 129
+        width: 68
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b765c85dc3d942e50800000000000000
+      internalID: 6783719823333152379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_209
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 137
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef737793c83cb2980800000000000000
+      internalID: -8562535259487913986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_210
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 147
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bac7391da9ae03e50800000000000000
+      internalID: 6787182589109304491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_211
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 36
+        width: 95
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12a21c24821e958f0800000000000000
+      internalID: -551161916341278175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_212
+      rect:
+        serializedVersion: 2
+        x: 1842
+        y: 133
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eca00f7a786199630800000000000000
+      internalID: 3934200521378761422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_213
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 17
+        width: 100
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7deaa5cd1eb2ecb00800000000000000
+      internalID: 850665628684168919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_214
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 124
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91558a1f7b8bf4820800000000000000
+      internalID: 2904743384850126105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_215
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 95
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a99fdd9953ab3ff70800000000000000
+      internalID: 9219917601535031706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_216
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 93
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 106163069b4fbc440800000000000000
+      internalID: 4957324891871647233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_217
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 99
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3e4070ccc60f4810800000000000000
+      internalID: 1751626256542092862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_218
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 94
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e338fe086c572480800000000000000
+      internalID: -8924062534613847065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_219
+      rect:
+        serializedVersion: 2
+        x: 1754
+        y: 100
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93ff3e70b132a5690800000000000000
+      internalID: -7612733621112930503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_220
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 45
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de8602e18589cc610800000000000000
+      internalID: 1642855468313372909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_221
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 92
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e91b6f2b43f68e080800000000000000
+      internalID: -9157947570126409314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_222
+      rect:
+        serializedVersion: 2
+        x: 1734
+        y: 65
+        width: 43
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7baca48a788555a60800000000000000
+      internalID: 7662127680708070071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Glow_223
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 1
+        width: 143
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3ee27a84951ffbe0800000000000000
+      internalID: -1441409628013138374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Frame_Glow_0: -4043412047095717081
+      Frame_Glow_1: 6583004340663504842
+      Frame_Glow_10: 7260037689282243132
+      Frame_Glow_100: -2231806909871050551
+      Frame_Glow_101: -8674897008527019534
+      Frame_Glow_102: -7130774877752210557
+      Frame_Glow_103: 2207572760580644594
+      Frame_Glow_104: 4674464877513781887
+      Frame_Glow_105: -5683138568296664914
+      Frame_Glow_106: -1512003193948777624
+      Frame_Glow_107: 8782126792610522723
+      Frame_Glow_108: -3839436655500244780
+      Frame_Glow_109: 712971889634960363
+      Frame_Glow_11: 3027852041737087906
+      Frame_Glow_110: -8894559992973095129
+      Frame_Glow_111: 221375317236907349
+      Frame_Glow_112: 3196802881305746700
+      Frame_Glow_113: 5415639018556486628
+      Frame_Glow_114: 7780088889242600073
+      Frame_Glow_115: 7915767115026109974
+      Frame_Glow_116: -6595205693604683822
+      Frame_Glow_117: 7500053058577003389
+      Frame_Glow_118: -5242452438752799519
+      Frame_Glow_119: 4370914723234731133
+      Frame_Glow_12: 2116783020625039718
+      Frame_Glow_120: -1846879083446070450
+      Frame_Glow_121: 9062584322394810572
+      Frame_Glow_122: -656560287759582008
+      Frame_Glow_123: -3315150468166687014
+      Frame_Glow_124: -7248461285466994172
+      Frame_Glow_125: -4600710936322932235
+      Frame_Glow_126: 6635309477138672279
+      Frame_Glow_127: -523031272566173390
+      Frame_Glow_128: 8394632989030220825
+      Frame_Glow_129: -2072263571738853608
+      Frame_Glow_13: 1132150270753180466
+      Frame_Glow_130: -7153900136980388234
+      Frame_Glow_131: 127806427073288081
+      Frame_Glow_132: 1877985173940167002
+      Frame_Glow_133: -6802396043641106156
+      Frame_Glow_134: -3899208767335389529
+      Frame_Glow_135: -4260388435899833777
+      Frame_Glow_136: -5811439458675506432
+      Frame_Glow_137: 8440077459047933595
+      Frame_Glow_138: -6334861549826319848
+      Frame_Glow_139: 3301748357338127712
+      Frame_Glow_14: -6114969326498673775
+      Frame_Glow_140: -4023569851825647988
+      Frame_Glow_141: 7547895786332951458
+      Frame_Glow_142: -4864822122054869838
+      Frame_Glow_143: -1168932224565347776
+      Frame_Glow_144: -9095175125310376770
+      Frame_Glow_145: 5759608800195848434
+      Frame_Glow_146: 6026138563604321881
+      Frame_Glow_147: 5333846395650191065
+      Frame_Glow_148: 4770270699272968252
+      Frame_Glow_149: 6652502709743102656
+      Frame_Glow_15: -8678510309404546482
+      Frame_Glow_150: -440292669809064691
+      Frame_Glow_151: 4971922317491174850
+      Frame_Glow_152: -2550351682685513502
+      Frame_Glow_153: -4048405717685733231
+      Frame_Glow_154: -3146895763467163583
+      Frame_Glow_155: 8282386881702157534
+      Frame_Glow_156: 8678460201251826224
+      Frame_Glow_157: -5338831708886436246
+      Frame_Glow_158: -1280240252969429877
+      Frame_Glow_159: 8097842610132114644
+      Frame_Glow_16: -8611762318404957569
+      Frame_Glow_160: 8485747116570537875
+      Frame_Glow_161: -7331091547990313693
+      Frame_Glow_162: 6473539628674746988
+      Frame_Glow_163: -4740044911614821556
+      Frame_Glow_164: -7256401498436066150
+      Frame_Glow_165: 8135610628817350697
+      Frame_Glow_166: -7370982470819113623
+      Frame_Glow_167: -1203882431813388250
+      Frame_Glow_168: 3917714929954023206
+      Frame_Glow_169: 6578249800782213835
+      Frame_Glow_17: 2241818967020995854
+      Frame_Glow_170: -8404054029998236304
+      Frame_Glow_171: 3796598326433235698
+      Frame_Glow_172: 8835730451325016590
+      Frame_Glow_173: 5713519463089941752
+      Frame_Glow_174: -8162913084065805513
+      Frame_Glow_175: 5988425274078103316
+      Frame_Glow_176: -6700857755085493967
+      Frame_Glow_177: 1818269486721971611
+      Frame_Glow_178: -5933610782907405547
+      Frame_Glow_179: -2991112640254937171
+      Frame_Glow_18: -156838412647645414
+      Frame_Glow_180: -5213585432202341466
+      Frame_Glow_181: 1883001780394860288
+      Frame_Glow_182: 3392268845454804546
+      Frame_Glow_183: -265624934964014051
+      Frame_Glow_184: -6851569717269629053
+      Frame_Glow_185: 6319984340483673160
+      Frame_Glow_186: 1409952037773067181
+      Frame_Glow_187: 3455826019396801106
+      Frame_Glow_188: 5263587250660012411
+      Frame_Glow_189: -373164602108144892
+      Frame_Glow_19: -8783786668445581267
+      Frame_Glow_190: 7699014754163993286
+      Frame_Glow_191: 3220774451066171468
+      Frame_Glow_192: 3417107968849653191
+      Frame_Glow_193: 5406818012438757842
+      Frame_Glow_194: 1999275696028189384
+      Frame_Glow_195: -1427415398583093366
+      Frame_Glow_196: 8145125945564140402
+      Frame_Glow_197: 4900735890377332347
+      Frame_Glow_198: -6385154696565410020
+      Frame_Glow_199: -5141215938953816156
+      Frame_Glow_2: -1773172347565574971
+      Frame_Glow_20: 3474642541703825253
+      Frame_Glow_200: 2959467883671992407
+      Frame_Glow_201: 2648699361939805042
+      Frame_Glow_202: -3664666527050865749
+      Frame_Glow_203: 1934474049521144571
+      Frame_Glow_204: 6043263628151663337
+      Frame_Glow_205: -7911984020738375214
+      Frame_Glow_206: 7982201159483315427
+      Frame_Glow_207: -7295004155470143851
+      Frame_Glow_208: 6783719823333152379
+      Frame_Glow_209: -8562535259487913986
+      Frame_Glow_21: 7831667579286039003
+      Frame_Glow_210: 6787182589109304491
+      Frame_Glow_211: -551161916341278175
+      Frame_Glow_212: 3934200521378761422
+      Frame_Glow_213: 850665628684168919
+      Frame_Glow_214: 2904743384850126105
+      Frame_Glow_215: 9219917601535031706
+      Frame_Glow_216: 4957324891871647233
+      Frame_Glow_217: 1751626256542092862
+      Frame_Glow_218: -8924062534613847065
+      Frame_Glow_219: -7612733621112930503
+      Frame_Glow_22: 2331646340383610855
+      Frame_Glow_220: 1642855468313372909
+      Frame_Glow_221: -9157947570126409314
+      Frame_Glow_222: 7662127680708070071
+      Frame_Glow_223: -1441409628013138374
+      Frame_Glow_23: 7619442781003443596
+      Frame_Glow_24: 8146989315420334585
+      Frame_Glow_25: 2658816696193342162
+      Frame_Glow_26: 8122108456218936644
+      Frame_Glow_27: -7881652139820745002
+      Frame_Glow_28: -6606032612642553481
+      Frame_Glow_29: -3149318264015489997
+      Frame_Glow_3: -8450548858325366320
+      Frame_Glow_30: 5354687869113539946
+      Frame_Glow_31: -804164887531602560
+      Frame_Glow_32: -8206593345878633406
+      Frame_Glow_33: 8109890707820173782
+      Frame_Glow_34: -2542838621313307391
+      Frame_Glow_35: -9194037478655439338
+      Frame_Glow_36: -4965727036555878865
+      Frame_Glow_37: -6230448939156616477
+      Frame_Glow_38: 9068100693542555591
+      Frame_Glow_39: -7353193583601598466
+      Frame_Glow_4: 6800733120407555864
+      Frame_Glow_40: 8509106767467149919
+      Frame_Glow_41: 3365445097763537835
+      Frame_Glow_42: -8555691531469375986
+      Frame_Glow_43: 5165509904664481389
+      Frame_Glow_44: 7745038531037391215
+      Frame_Glow_45: -6573034099356172173
+      Frame_Glow_46: -1905269389507278964
+      Frame_Glow_47: -3395310409683866262
+      Frame_Glow_48: 944162409997883414
+      Frame_Glow_49: -6015062732652050791
+      Frame_Glow_5: -7423253338917161462
+      Frame_Glow_50: 1523093134693548982
+      Frame_Glow_51: -162516054981085396
+      Frame_Glow_52: -7614538898218037622
+      Frame_Glow_53: -8878188384495192251
+      Frame_Glow_54: 4461780910624870116
+      Frame_Glow_55: 8574975723201810215
+      Frame_Glow_56: -8173040126298457879
+      Frame_Glow_57: 8252323926219099717
+      Frame_Glow_58: -1350316088026223037
+      Frame_Glow_59: -4670435295133358872
+      Frame_Glow_6: -6519732906310533881
+      Frame_Glow_60: 689617219944557154
+      Frame_Glow_61: 8823001141874724347
+      Frame_Glow_62: -8364388369516732579
+      Frame_Glow_63: -1447679642610122716
+      Frame_Glow_64: 8888158207800943543
+      Frame_Glow_65: -7483739305759393753
+      Frame_Glow_66: -2533689111516155158
+      Frame_Glow_67: -2912720775569033043
+      Frame_Glow_68: -4760665247262596867
+      Frame_Glow_69: -6859126519875360613
+      Frame_Glow_7: 9130071582553450423
+      Frame_Glow_70: 5195446254314704028
+      Frame_Glow_71: 3037827935869944596
+      Frame_Glow_72: -6165054657606210734
+      Frame_Glow_73: -6797551813569943790
+      Frame_Glow_74: -5289842942848741467
+      Frame_Glow_75: -3838077863641025767
+      Frame_Glow_76: 4869502101133217570
+      Frame_Glow_77: 5644808236371553797
+      Frame_Glow_78: -6627638223743408985
+      Frame_Glow_79: -5772879589324389349
+      Frame_Glow_8: -8642488396956153215
+      Frame_Glow_80: -2480381218823195896
+      Frame_Glow_81: 1716049125510213191
+      Frame_Glow_82: -5433951291571530311
+      Frame_Glow_83: -5881932819776686120
+      Frame_Glow_84: -6219770348227752512
+      Frame_Glow_85: 2543969453369919822
+      Frame_Glow_86: -7905595427909841679
+      Frame_Glow_87: -5588956734018021302
+      Frame_Glow_88: -1517524216022024753
+      Frame_Glow_89: -4289590194679786160
+      Frame_Glow_9: -6864975976881997159
+      Frame_Glow_90: 891388139619564828
+      Frame_Glow_91: -5795471359462636593
+      Frame_Glow_92: -8352501561693447954
+      Frame_Glow_93: 2278178633869430192
+      Frame_Glow_94: 4185492504754353687
+      Frame_Glow_95: -786036042654660312
+      Frame_Glow_96: -4336135585844173192
+      Frame_Glow_97: -6696772205419676999
+      Frame_Glow_98: 7544573761880715783
+      Frame_Glow_99: 7936357870248343603
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

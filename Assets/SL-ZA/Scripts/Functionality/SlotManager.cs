@@ -12,13 +12,26 @@ public class SlotManager : MonoBehaviour
 {
     [Header("Sprites")]
     [SerializeField] private Sprite[] _symbolSprites;
-    [SerializeField] private List<AnimationSprites> symbolAnimations;
+    [SerializeField] private List<SkeletonDataAsset> symbolAnimations;
+
+    [Header("Wild Explosion")]
+    [SerializeField] private List<SpineSlot> BlastAnimationImages;
+    [SerializeField] private SkeletonDataAsset syringeBlastAnimation;
+    [SerializeField] private SkeletonDataAsset syringeWildAnimation;
+    [SerializeField] private SkeletonDataAsset medkitBlastAnimation;
+    [SerializeField] private SkeletonDataAsset medkitWildAnimation;
+    [SerializeField] private AnimLayout syringeBlastLayout;
+    [SerializeField] private AnimLayout syringeWildLayout;
+    [SerializeField] private AnimLayout medkitBlastLayout;
+    [SerializeField] private AnimLayout medkitWildLayout;
+    [SerializeField] private Color wildNormalColor = Color.white;
+    [SerializeField] private Color wildOverlayColor = new Color(0.4f, 0.4f, 0.4f, 1f); // wilds not on the shown win line
 
     [Header("Slot Images")]
     [SerializeField] private List<SlotImage> _totalImages;
     [SerializeField] internal List<SlotImage> _resultImages;
     [SerializeField] private List<ImageAnimation> reelBgs;
-    [SerializeField] private List<SlotImage> winAnimationImages;
+    [SerializeField] private List<SpineSlot> winAnimationImages;
     [SerializeField] internal List<SlotImage> SlotOverlays;
     [SerializeField] internal List<SlotImage> WinFrames;
 
@@ -51,6 +64,8 @@ public class SlotManager : MonoBehaviour
     private Coroutine _autoSpinRoutine = null;
     private Coroutine _tweenRoutine;
     private Coroutine _winLinesLoopRoutine;
+    // (reel, row) -> wild Spine asset set by an explosion this spin; win lines play it instead of the symbol animation
+    private readonly Dictionary<(int reel, int row), SkeletonDataAsset> _wildCells = new Dictionary<(int reel, int row), SkeletonDataAsset>();
     // Slots converted from symbolId 0 to Red Monopoly by a golden multiplier this spin —
     // consulted by the win-line highlight so those slots keep showing the red variant.
     private bool _isSpinning = false;
@@ -119,7 +134,7 @@ public class SlotManager : MonoBehaviour
                 Sprite image = _symbolSprites[randomSprite];
                 slotImg.slotImages[j].sprite = image;
                 slotImg.slotImages[j].preserveAspect = true;
-                //SetSymbolSize(slotImg.slotImages[j], randomSprite);
+                SetSymbolSize(slotImg.slotImages[j], randomSprite);
             }
         }
     }
@@ -287,7 +302,23 @@ public class SlotManager : MonoBehaviour
                 {
                     _resultImages[i].slotImages[j].sprite = _symbolSprites[symbolId];
                     _resultImages[i].slotImages[j].preserveAspect = true;
-                    //SetSymbolSize(_resultImages[i].slotImages[j], symbolId);
+                    SetSymbolSize(_resultImages[i].slotImages[j], symbolId);
+                }
+            }
+        }
+
+        // matrix is post-explosion; show the original symbols on exploded cells until the blast turns them wild
+        var wildExplosions = socketManager.resultData.payload.wildExplosions;
+        bool hasExplosions = wildExplosions != null && wildExplosions.triggered && wildExplosions.explosions != null;
+        if (hasExplosions)
+        {
+            foreach (var explosion in wildExplosions.explosions)
+            {
+                foreach (var pos in explosion.explodedPositions)
+                {
+                    Image img = _resultImages[pos.col].slotImages[pos.row];
+                    img.sprite = _symbolSprites[pos.originalSymbolId];
+                    SetSymbolSize(img, pos.originalSymbolId);
                 }
             }
         }
@@ -323,22 +354,27 @@ public class SlotManager : MonoBehaviour
         // right here rather than staying visible through any heatup/wheel-trigger animations.
         uiManager.HideStopButtonAfterReelsStopped();
 
+        if (hasExplosions)
+        {
+            yield return PlayWildExplosions(wildExplosions.explosions);
+        }
+
         // Big/Huge/Mega win popup is shown before the win-line loop, which then plays once it's
         // closed (Take, or the 3s autoplay auto-close after Take becomes interactable).
-        if (!isBonus)
-        {
-            var popupType = uiManager.GetWinPopupType(socketManager.resultData.payload.winAmount);
-            if (popupType.HasValue)
-            {
-                bool popupClosed = false;
-                uiManager.ShowUniversalWinPopup(popupType.Value, socketManager.resultData.payload.winAmount, _isAutoSpin, () => popupClosed = true);
-                yield return new WaitUntil(() => popupClosed);
-            }
-            else if (socketManager.resultData.payload.winAmount > 0)
-            {
-                audioController.PlayNormalSmallWin();
-            }
-        }
+        // if (!isBonus)
+        // {
+        //     var popupType = uiManager.GetWinPopupType(socketManager.resultData.payload.winAmount);
+        //     if (popupType.HasValue)
+        //     {
+        //         bool popupClosed = false;
+        //         uiManager.ShowUniversalWinPopup(popupType.Value, socketManager.resultData.payload.winAmount, _isAutoSpin, () => popupClosed = true);
+        //         yield return new WaitUntil(() => popupClosed);
+        //     }
+        //     else if (socketManager.resultData.payload.winAmount > 0)
+        //     {
+        //         audioController.PlayNormalSmallWin();
+        //     }
+        // }
 
         if (socketManager.resultData.payload.lineWins.Count > 0)
         {
@@ -389,14 +425,23 @@ public class SlotManager : MonoBehaviour
             {
                 SlotOverlays[j].slotImages[k].gameObject.SetActive(true);
                 WinFrames[j].slotImages[k].gameObject.SetActive(false);
-                //winAnimationImages[j].slotImages[k].GetComponent<ImageAnimation>().StopAnimation();
-                //winAnimationImages[j].slotImages[k].gameObject.SetActive(false);
+                if (_wildCells.ContainsKey((j, k)))
+                {
+                    // wilds stay visible, frozen and dimmed unless on a shown win line
+                    winAnimationImages[j].slotImages[k].SkeletonGraphic.color = wildOverlayColor;
+                    winAnimationImages[j].slotImages[k].Pause();
+                    continue;
+                }
+
+                winAnimationImages[j].slotImages[k].Stop();
+                winAnimationImages[j].slotImages[k].gameObject.SetActive(false);
                 SetResultImageVisible(_resultImages[j].slotImages[k], true);
             }
         }
 
         winAmountBigText.gameObject.SetActive(true);
-        winAmountBigText.text = socketManager.resultData.payload.winAmount.ToString("F2");
+        //winAmountBigText.text = socketManager.resultData.payload.winAmount.ToString("F2");
+        winAmountBigText.text = UIManager.ToSpriteString(socketManager.resultData.payload.winAmount.ToString("F2"));
 
         for (int j = 0; j < winLines.Count; j++)
         {
@@ -411,7 +456,7 @@ public class SlotManager : MonoBehaviour
                 if (symbolID != 0)
                 {
                     WinFrames[row].slotImages[col].gameObject.SetActive(true);
-                    //WinFrames[row].slotImages[col].GetComponent<ImageAnimation>().StartAnimation();
+                    WinFrames[row].slotImages[col].GetComponent<ImageAnimation>().StartAnimation();
                 }
 
 
@@ -452,9 +497,17 @@ public class SlotManager : MonoBehaviour
 
                         SlotOverlays[j].slotImages[k].gameObject.SetActive(true);
                         WinFrames[j].slotImages[k].gameObject.SetActive(false);
-                        //winAnimationImages[j].slotImages[k].GetComponent<ImageAnimation>().StopAnimation();
+                        if (_wildCells.ContainsKey((j, k)))
+                        {
+                            // wilds stay visible, frozen and dimmed unless on the current win line
+                            winAnimationImages[j].slotImages[k].SkeletonGraphic.color = wildOverlayColor;
+                            winAnimationImages[j].slotImages[k].Pause();
+                            continue;
+                        }
+
+                        winAnimationImages[j].slotImages[k].Stop();
                         SetResultImageVisible(_resultImages[j].slotImages[k], true);
-                        //winAnimationImages[j].slotImages[k].gameObject.SetActive(false);
+                        winAnimationImages[j].slotImages[k].gameObject.SetActive(false);
                     }
                 }
 
@@ -488,7 +541,8 @@ public class SlotManager : MonoBehaviour
                     linewinText.gameObject.SetActive(false);
                 }
                 int tempIndex = GetPerLineWinIndex(winLines[i].lineIndex);
-                lineWinTexts[tempIndex].text = winLines[i].winInCash.ToString("F2");
+                //lineWinTexts[tempIndex].text = winLines[i].winInCash.ToString("F2");
+                lineWinTexts[tempIndex].text = UIManager.ToSpriteString(winLines[i].winInCash.ToString("F2"));
                 lineWinTexts[tempIndex].gameObject.SetActive(true);
 
                 previousPositions = currentPositions;
@@ -504,22 +558,110 @@ public class SlotManager : MonoBehaviour
     // instead of the normal symbol-0 win animation.
     private void PlayWinSymbolAnimation(int row, int col, int symbolID)
     {
+        SpineAnimController anim = winAnimationImages[row].slotImages[col];
 
-        //winAnimationImages[row].slotImages[col].sprite = _symbolSprites[symbolID];
+        if (_wildCells.TryGetValue((row, col), out SkeletonDataAsset wild))
+        {
+            // no Stop(): the wild loop carries on instead of restarting
+            anim.SkeletonGraphic.color = wildNormalColor;
+            anim.gameObject.SetActive(true);
+            SetResultImageVisible(_resultImages[row].slotImages[col], false);
+            anim.SetSkeletonData(wild);
+            anim.Play(true);
+            return;
+        }
 
-        //SetAnimationSymbolSize(winAnimationImages[row].slotImages[col], symbolID);
-
-        //winAnimationImages[row].slotImages[col].preserveAspect = true;
-        //winAnimationImages[row].slotImages[col].gameObject.SetActive(true);
+        SetAnimationSymbolTransform((RectTransform)anim.transform, symbolID);
+        anim.gameObject.SetActive(true);
         SetResultImageVisible(_resultImages[row].slotImages[col], false);
 
-        // ImageAnimation anim = winAnimationImages[row].slotImages[col].GetComponent<ImageAnimation>();
-        // anim.StopAnimation();
-        // anim.textureArray = GetAnimationSprite(symbolID);
-        // anim.AnimationSpeed = GetAnimationSpeed(symbolID);
-        // anim.doLoopAnimation = true;
-        // anim.StartAnimation();
+        anim.SetSkeletonData(symbolAnimations[symbolID]);
+        anim.Stop(); // reset isPlaying so Play restarts from frame 0
+        anim.Play(true);
+    }
 
+    // Plays all explosions together: trigger symbol anims once -> blasts once on BlastAnimationImages,
+    // with paused wilds set on every trigger and exploded cell 0.5s into the blast (they animate later,
+    // only while their win line is shown).
+    private IEnumerator PlayWildExplosions(List<Explosion> explosions)
+    {
+        const float wildDelay = 0f;
+        var valid = explosions.FindAll(e => e.triggerPosition.symbolId == 0 || e.triggerPosition.symbolId == 1);
+
+        float maxDuration = 0f;
+        foreach (var explosion in valid)
+        {
+            TriggerPosition t = explosion.triggerPosition;
+            SpineAnimController anim = winAnimationImages[t.col].slotImages[t.row];
+            SetAnimationSymbolTransform((RectTransform)anim.transform, t.symbolId);
+            SetResultImageVisible(_resultImages[t.col].slotImages[t.row], false);
+            maxDuration = Mathf.Max(maxDuration, StartAnimationOnce(anim, symbolAnimations[t.symbolId]));
+        }
+        yield return new WaitForSeconds(maxDuration);
+
+        maxDuration = 0f;
+        foreach (var explosion in valid)
+        {
+            TriggerPosition t = explosion.triggerPosition;
+            bool syringe = t.symbolId == 0;
+            SpineAnimController blast = BlastAnimationImages[t.col].slotImages[t.row];
+            (syringe ? syringeBlastLayout : medkitBlastLayout).Apply((RectTransform)blast.transform);
+            maxDuration = Mathf.Max(maxDuration, StartAnimationOnce(blast, syringe ? syringeBlastAnimation : medkitBlastAnimation));
+        }
+        yield return new WaitForSeconds(Mathf.Min(wildDelay, maxDuration));
+
+        foreach (var explosion in valid)
+        {
+            TriggerPosition t = explosion.triggerPosition;
+            bool syringe = t.symbolId == 0;
+            SkeletonDataAsset wild = syringe ? syringeWildAnimation : medkitWildAnimation;
+            AnimLayout layout = syringe ? syringeWildLayout : medkitWildLayout;
+            SetWildCell(t.col, t.row, wild, layout);
+            foreach (var pos in explosion.explodedPositions)
+            {
+                SetWildCell(pos.col, pos.row, wild, layout);
+            }
+        }
+
+        // let the blasts finish before the win lines start, then hide them
+        yield return new WaitForSeconds(Mathf.Max(0f, maxDuration - wildDelay));
+        HideBlastAnimations();
+    }
+
+    private void HideBlastAnimations()
+    {
+        foreach (var reel in BlastAnimationImages)
+        {
+            foreach (var blast in reel.slotImages)
+            {
+                blast.Stop();
+                blast.gameObject.SetActive(false);
+            }
+        }
+    }
+
+    // Starts a one-shot animation and returns its duration. Caller sets the object's scale/insets first.
+    private float StartAnimationOnce(SpineAnimController anim, SkeletonDataAsset asset)
+    {
+        anim.gameObject.SetActive(true);
+        anim.SetSkeletonData(asset);
+        anim.Stop();
+        anim.Play(false);
+        return anim.GetAnimationDuration();
+    }
+
+    private void SetWildCell(int reel, int row, SkeletonDataAsset wild, AnimLayout layout)
+    {
+        _wildCells[(reel, row)] = wild;
+        SpineAnimController anim = winAnimationImages[reel].slotImages[row];
+        layout.Apply((RectTransform)anim.transform);
+        anim.gameObject.SetActive(true);
+        SetResultImageVisible(_resultImages[reel].slotImages[row], false);
+        anim.SetSkeletonData(wild);
+        anim.Stop();
+        anim.Play(true);
+        anim.SkeletonGraphic.color = wildNormalColor;
+        anim.Pause(); // visible but frozen until its win line is shown
     }
 
     /// <summary>
@@ -540,8 +682,8 @@ public class SlotManager : MonoBehaviour
                 SlotOverlays[j].slotImages[k].gameObject.SetActive(false);
                 WinFrames[j].slotImages[k].gameObject.SetActive(false);
                 SetResultImageVisible(_resultImages[j].slotImages[k], true);
-                //winAnimationImages[j].slotImages[k].GetComponent<ImageAnimation>().StopAnimation();
-                //winAnimationImages[j].slotImages[k].gameObject.SetActive(false);
+                winAnimationImages[j].slotImages[k].Stop();
+                winAnimationImages[j].slotImages[k].gameObject.SetActive(false);
             }
         }
     }
@@ -627,21 +769,13 @@ public class SlotManager : MonoBehaviour
     private static readonly int[] _middleColumnRowByLine = new int[]
     {
         -1, // unused, index 0
-        0, 1, 2, 3, 0, 3, 1, 2, 2, 1,
-        0, 3, 2, 1, 0, 3, 2, 1, 2, 1,
-        1, 2, 1, 2, 1, 2, 2, 1, 1, 2,
-        1, 2, 1, 2, 0, 3, 2, 1, 1, 2,
+        1,0,2,2,0,0,2,1,1,1
     };
 
     private int GetPerLineWinIndex(int lineIndex)
     {
         lineIndex++;
         return _middleColumnRowByLine[lineIndex];
-    }
-
-    private List<Sprite> GetAnimationSprite(int symbolID)
-    {
-        return symbolAnimations[symbolID].sprites;
     }
 
     // Visibility toggle for _resultImages that keeps the GameObject active and fades alpha
@@ -659,47 +793,47 @@ public class SlotManager : MonoBehaviour
         {
             case 0:
                 //slotImage.transform.localScale = new Vector2(1.15f, 1.15f);
-                slotImage.transform.DOScale(1.28f, time);
+                slotImage.transform.DOScale(1f, time);
                 break;
 
             case 1:
                 //slotImage.transform.localScale = new Vector2(1.15f, 1.15f);
-                slotImage.transform.DOScale(1.15f, time);
+                slotImage.transform.DOScale(1f, time);
                 break;
 
             case 2:
                 //slotImage.transform.localScale = new Vector2(1.15f, 1.15f);
-                slotImage.transform.DOScale(1.3f, time);
+                slotImage.transform.DOScale(1.58f, time);
                 break;
 
             case 3:
                 //slotImage.transform.localScale = new Vector2(1.15f, 1.15f);
-                slotImage.transform.DOScale(1.06f, time);
+                slotImage.transform.DOScale(1.36f, time);
                 break;
 
             case 4:
                 //slotImage.transform.localScale = new Vector2(1.15f, 1.15f);
-                slotImage.transform.DOScale(1.1f, time);
+                slotImage.transform.DOScale(1.36f, time);
                 break;
 
             case 5:
                 //slotImage.transform.localScale = new Vector2(0.87f, 0.87f);
-                slotImage.transform.DOScale(1f, time);
+                slotImage.transform.DOScale(1.2111f, time);
                 break;
 
             case 6:
                 //slotImage.transform.localScale = new Vector2(0.87f, 0.87f);
-                slotImage.transform.DOScale(1.21f, time);
+                slotImage.transform.DOScale(1.26f, time);
                 break;
 
             case 7:
                 //slotImage.transform.localScale = new Vector2(1.7f, 1.7f);
-                slotImage.transform.DOScale(0.91f, time);
+                slotImage.transform.DOScale(1.211f, time);
                 break;
 
             case 8:
                 //slotImage.transform.localScale = new Vector2(1.7f, 1.7f);
-                slotImage.transform.DOScale(1f, time);
+                slotImage.transform.DOScale(1.27f, time);
                 break;
 
             case 9:
@@ -728,118 +862,87 @@ public class SlotManager : MonoBehaviour
         }
     }
 
-    private void SetAnimationSymbolSize(Image slotImage, int symbolID, float time = 0f)
+    // Per-symbol scale and stretch insets (Left, Top, Right, Bottom as in the Inspector) for the win Spine animation.
+    private void SetAnimationSymbolTransform(RectTransform rt, int symbolID)
     {
         switch (symbolID)
         {
             case 0:
-                //slotImage.transform.localScale = new Vector2(1.15f, 1.15f);
-                slotImage.transform.DOScale(1.925f, time);
+                rt.localScale = Vector3.one * 0.473f;
+                SetStretch(rt, 0f, 0f, 0f, 0f);
                 break;
 
             case 1:
-                //slotImage.transform.localScale = new Vector2(1.15f, 1.15f);
-                slotImage.transform.DOScale(1.15f, time);
+                rt.localScale = Vector3.one * 0.509f;
+                SetStretch(rt, 0f, 0f, 0f, 0f);
                 break;
 
             case 2:
-                //slotImage.transform.localScale = new Vector2(1.15f, 1.15f);
-                slotImage.transform.DOScale(1.3f, time);
+                rt.localScale = Vector3.one * 0.699f;
+                SetStretch(rt, 0f, -1.74f, 0f, 0f);
                 break;
 
             case 3:
-                //slotImage.transform.localScale = new Vector2(1.15f, 1.15f);
-                slotImage.transform.DOScale(1.06f, time);
+                rt.localScale = Vector3.one * 0.682f;
+                SetStretch(rt, 1.32f, -0.9f, 0f, 0f);
                 break;
 
             case 4:
-                //slotImage.transform.localScale = new Vector2(1.15f, 1.15f);
-                slotImage.transform.DOScale(1.1f, time);
+                rt.localScale = Vector3.one * 0.776f;
+                SetStretch(rt, 0f, -2.08f, 0f, 0f);
                 break;
 
             case 5:
-                //slotImage.transform.localScale = new Vector2(0.87f, 0.87f);
-                slotImage.transform.DOScale(1f, time);
+                rt.localScale = Vector3.one * 0.5122f;
+                SetStretch(rt, 0.15f, 0.78f, 0f, 0f);
                 break;
 
             case 6:
-                //slotImage.transform.localScale = new Vector2(0.87f, 0.87f);
-                slotImage.transform.DOScale(1.21f, time);
+                rt.localScale = Vector3.one * 0.5133f;
+                SetStretch(rt, 0.69f, -0.75f, 0f, 0f);
                 break;
 
             case 7:
-                //slotImage.transform.localScale = new Vector2(1.7f, 1.7f);
-                slotImage.transform.DOScale(0.91f, time);
+                rt.localScale = Vector3.one * 0.91f;
+                SetStretch(rt, 0f, 0f, 0f, 0f);
                 break;
 
             case 8:
-                //slotImage.transform.localScale = new Vector2(1.7f, 1.7f);
-                slotImage.transform.DOScale(1f, time);
+                rt.localScale = Vector3.one * 0.595f;
+                SetStretch(rt, 0.29f, -0.26f, 0f, 0f);
                 break;
 
             case 9:
-                //slotImage.transform.localScale = new Vector2(1.7f, 1.7f);
-                slotImage.transform.DOScale(1.08f, time);
+                rt.localScale = Vector3.one * 1.08f;
+                SetStretch(rt, 0f, 0f, 0f, 0f);
                 break;
 
             case 10:
-                //slotImage.transform.localScale = new Vector2(1.7f, 1.7f);
-                slotImage.transform.DOScale(1.08f, time);
+                rt.localScale = Vector3.one * 1.08f;
+                SetStretch(rt, 0f, 0f, 0f, 0f);
                 break;
 
             case 11:
-                //slotImage.transform.localScale = new Vector2(1.7f, 1.7f);
-                slotImage.transform.DOScale(1.75f, time);
+                rt.localScale = Vector3.one * 1.75f;
+                SetStretch(rt, 0f, 0f, 0f, 0f);
                 break;
 
             case 12:
-                //slotImage.transform.localScale = new Vector2(1.7f, 1.7f);
-                slotImage.transform.DOScale(1f, time);
+                rt.localScale = Vector3.one * 1f;
+                SetStretch(rt, 0f, 0f, 0f, 0f);
                 break;
 
             default:
-                slotImage.transform.DOScale(1f, time);
+                rt.localScale = Vector3.one;
+                SetStretch(rt, 0f, 0f, 0f, 0f);
                 break;
         }
     }
 
-    // Per-symbol AnimationSpeed for the winning-line loop animation (ImageAnimation.AnimationSpeed).
-    // All symbols currently share the same speed the win-loop code used to hardcode inline;
-    // tune individual cases here once per-symbol timing is needed.
-    private float GetAnimationSpeed(int symbolID)
+    private static void SetStretch(RectTransform rt, float left, float top, float right, float bottom)
     {
-        switch (symbolID)
-        {
-            case 0:
-                return 86f;
-            case 1:
-                return 39;
-            case 2:
-                return 39f;
-            case 3:
-                return 47f;
-            case 4:
-                return 47f;
-            case 5:
-                return 39f;
-            case 6:
-                return 35f;
-            case 7:
-                return 39f;
-            case 8:
-                return 69f;
-            case 9:
-                return 47f;
-            case 10:
-                return 69f;
-            case 11:
-                return 61f;
-            case 12:
-                return 31f;
-
-            default:
-                return 31f;
-        }
+        rt.offsetMin = new Vector2(left, bottom);
+        rt.offsetMax = new Vector2(-right, -top);
     }
 
     private void ResetAllSymbol()
@@ -878,10 +981,13 @@ public class SlotManager : MonoBehaviour
                 SlotOverlays[j].slotImages[k].gameObject.SetActive(false);
                 WinFrames[j].slotImages[k].gameObject.SetActive(false);
                 SetResultImageVisible(_resultImages[j].slotImages[k], true);
-                //winAnimationImages[j].slotImages[k].GetComponent<ImageAnimation>().StopAnimation();
-                //winAnimationImages[j].slotImages[k].gameObject.SetActive(false);
+                winAnimationImages[j].slotImages[k].Stop();
+                winAnimationImages[j].slotImages[k].gameObject.SetActive(false);
+                winAnimationImages[j].slotImages[k].SkeletonGraphic.color = wildNormalColor;
             }
         }
+        _wildCells.Clear();
+        HideBlastAnimations();
         winAmountBigText.gameObject.SetActive(false);
         foreach (var lineWinText in lineWinTexts)
         {
@@ -899,7 +1005,22 @@ public class SlotImage
 }
 
 [Serializable]
-public class AnimationSprites
+public class SpineSlot
 {
-    public List<Sprite> sprites = new List<Sprite>();
+    public List<SpineAnimController> slotImages = new List<SpineAnimController>(10);
+}
+
+// Scale and stretch insets (Left, Top, Right, Bottom as in the RectTransform Inspector) for a win-anim object.
+[Serializable]
+public class AnimLayout
+{
+    public float scale = 1f;
+    public float left, top, right, bottom;
+
+    public void Apply(RectTransform rt)
+    {
+        rt.localScale = Vector3.one * scale;
+        rt.offsetMin = new Vector2(left, bottom);
+        rt.offsetMax = new Vector2(-right, -top);
+    }
 }
