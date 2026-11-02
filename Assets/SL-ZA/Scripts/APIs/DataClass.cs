@@ -144,6 +144,7 @@ public class Payload
     public double winAmount { get; set; }
     public List<LineWin> lineWins { get; set; }
     public WildExplosions wildExplosions { get; set; }
+    public bool fiveOfAKind { get; set; }
     public double grandTotalWin { get; set; }
     public double netReturnRatio { get; set; }
 }

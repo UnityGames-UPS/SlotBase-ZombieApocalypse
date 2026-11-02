@@ -27,6 +27,8 @@ public class SlotManager : MonoBehaviour
     [SerializeField] private Color wildNormalColor = Color.white;
     [SerializeField] private Color wildOverlayColor = new Color(0.4f, 0.4f, 0.4f, 1f); // wilds not on the shown win line
 
+    [SerializeField] private GameObject FiveOfAKindAnimation;
+
     [Header("Slot Images")]
     [SerializeField] private List<SlotImage> _totalImages;
     [SerializeField] internal List<SlotImage> _resultImages;
@@ -34,6 +36,7 @@ public class SlotManager : MonoBehaviour
     [SerializeField] private List<SpineSlot> winAnimationImages;
     [SerializeField] internal List<SlotImage> SlotOverlays;
     [SerializeField] internal List<SlotImage> WinFrames;
+    [SerializeField] private List<GameObject> WinLines;
 
     [Header("Slots Transforms")]
     [SerializeField] private Transform[] _slotTransforms;
@@ -376,6 +379,17 @@ public class SlotManager : MonoBehaviour
         //     }
         // }
 
+        if (socketManager.resultData.payload.fiveOfAKind)
+        {
+            FiveOfAKindAnimation.SetActive(true);
+            FiveOfAKindAnimation.GetComponent<SpineAnimController>().Play(false);
+            //audioController.PlayFiveOfAKind();
+            FiveOfAKindAnimation.GetComponent<SpineAnimController>().SkeletonGraphic.AnimationState.Complete += (trackEntry) =>
+            {
+                FiveOfAKindAnimation.SetActive(false);
+            };
+        }
+
         if (socketManager.resultData.payload.lineWins.Count > 0)
         {
             yield return ShowWinLineAnimation(socketManager.resultData.payload.lineWins, socketManager.resultData.payload.winAmount);
@@ -486,6 +500,11 @@ public class SlotManager : MonoBehaviour
                     currentPositions.Add((pos.col, pos.row));
                 }
 
+                HideWinLineObjects();
+                GameObject lineObj = WinLines[winLines[i].lineIndex];
+                lineObj.SetActive(true); // before StartAnimation: ImageAnimation's Invoke doesn't run on inactive objects
+                lineObj.GetComponent<ImageAnimation>().StartAnimation();
+
                 for (int j = 0; j < SlotOverlays.Count; j++)
                 {
                     for (int k = 0; k < SlotOverlays[j].slotImages.Count; k++)
@@ -565,7 +584,7 @@ public class SlotManager : MonoBehaviour
             // no Stop(): the wild loop carries on instead of restarting
             anim.SkeletonGraphic.color = wildNormalColor;
             anim.gameObject.SetActive(true);
-            SetResultImageVisible(_resultImages[row].slotImages[col], false);
+            SetResultImageVisible(_resultImages[row].slotImages[col], true); // slot image stays behind the wild
             anim.SetSkeletonData(wild);
             anim.Play(true);
             return;
@@ -656,7 +675,7 @@ public class SlotManager : MonoBehaviour
         SpineAnimController anim = winAnimationImages[reel].slotImages[row];
         layout.Apply((RectTransform)anim.transform);
         anim.gameObject.SetActive(true);
-        SetResultImageVisible(_resultImages[reel].slotImages[row], false);
+        SetResultImageVisible(_resultImages[reel].slotImages[row], true); // slot image stays behind the wild
         anim.SetSkeletonData(wild);
         anim.Stop();
         anim.Play(true);
@@ -668,12 +687,22 @@ public class SlotManager : MonoBehaviour
     /// Stops the repeating win-lines display (if running) and snaps its visuals
     /// back to idle so nothing is left mid-fade or mid-scale when the next spin starts.
     /// </summary>
+    private void HideWinLineObjects()
+    {
+        foreach (var line in WinLines)
+        {
+            line.GetComponent<ImageAnimation>().StopAnimation();
+            line.SetActive(false);
+        }
+    }
+
     private void StopWinLinesLoop()
     {
         if (_winLinesLoopRoutine == null) return;
 
         StopCoroutine(_winLinesLoopRoutine);
         _winLinesLoopRoutine = null;
+        HideWinLineObjects();
 
         for (int j = 0; j < SlotOverlays.Count; j++)
         {
@@ -803,17 +832,17 @@ public class SlotManager : MonoBehaviour
 
             case 2:
                 //slotImage.transform.localScale = new Vector2(1.15f, 1.15f);
-                slotImage.transform.DOScale(1.58f, time);
+                slotImage.transform.DOScale(1.53f, time);
                 break;
 
             case 3:
                 //slotImage.transform.localScale = new Vector2(1.15f, 1.15f);
-                slotImage.transform.DOScale(1.36f, time);
+                slotImage.transform.DOScale(1.31f, time);
                 break;
 
             case 4:
                 //slotImage.transform.localScale = new Vector2(1.15f, 1.15f);
-                slotImage.transform.DOScale(1.36f, time);
+                slotImage.transform.DOScale(1.31f, time);
                 break;
 
             case 5:
@@ -878,17 +907,17 @@ public class SlotManager : MonoBehaviour
                 break;
 
             case 2:
-                rt.localScale = Vector3.one * 0.699f;
+                rt.localScale = Vector3.one * 0.68f;
                 SetStretch(rt, 0f, -1.74f, 0f, 0f);
                 break;
 
             case 3:
-                rt.localScale = Vector3.one * 0.682f;
+                rt.localScale = Vector3.one * 0.657f;
                 SetStretch(rt, 1.32f, -0.9f, 0f, 0f);
                 break;
 
             case 4:
-                rt.localScale = Vector3.one * 0.776f;
+                rt.localScale = Vector3.one * 0.747f;
                 SetStretch(rt, 0f, -2.08f, 0f, 0f);
                 break;
 
@@ -903,8 +932,8 @@ public class SlotManager : MonoBehaviour
                 break;
 
             case 7:
-                rt.localScale = Vector3.one * 0.91f;
-                SetStretch(rt, 0f, 0f, 0f, 0f);
+                rt.localScale = Vector3.one * 0.712f;
+                SetStretch(rt, -0.54f, 2.27f, 0f, 0f);
                 break;
 
             case 8:
@@ -988,6 +1017,7 @@ public class SlotManager : MonoBehaviour
         }
         _wildCells.Clear();
         HideBlastAnimations();
+        HideWinLineObjects();
         winAmountBigText.gameObject.SetActive(false);
         foreach (var lineWinText in lineWinTexts)
         {
