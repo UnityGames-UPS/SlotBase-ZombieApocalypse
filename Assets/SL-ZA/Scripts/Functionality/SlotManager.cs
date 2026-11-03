@@ -129,7 +129,7 @@ public class SlotManager : MonoBehaviour
         {
             for (int j = 0; j < slotImg.slotImages.Count; j++)
             {
-                int randomSprite = UnityEngine.Random.Range(0, 9);
+                int randomSprite = UnityEngine.Random.Range(2, 9);
                 // Sprite image = (j % 2 == 0)
                 //     ? _symbolSprites[randomSprite] // random symbol
                 //     : _symbolSprites[0]; // blank
@@ -138,6 +138,12 @@ public class SlotManager : MonoBehaviour
                 slotImg.slotImages[j].sprite = image;
                 slotImg.slotImages[j].preserveAspect = true;
                 SetSymbolSize(slotImg.slotImages[j], randomSprite);
+
+                if(j == 6 && randomSprite == 2)
+                {
+                    slotImg.slotImages[j].sprite = _symbolSprites[8];
+                    SetSymbolSize(slotImg.slotImages[j], 8);
+                }
             }
         }
     }
@@ -381,13 +387,12 @@ public class SlotManager : MonoBehaviour
 
         if (socketManager.resultData.payload.fiveOfAKind)
         {
+            var fiveAnim = FiveOfAKindAnimation.GetComponent<SpineAnimController>();
             FiveOfAKindAnimation.SetActive(true);
-            FiveOfAKindAnimation.GetComponent<SpineAnimController>().Play(false);
-            //audioController.PlayFiveOfAKind();
-            FiveOfAKindAnimation.GetComponent<SpineAnimController>().SkeletonGraphic.AnimationState.Complete += (trackEntry) =>
-            {
-                FiveOfAKindAnimation.SetActive(false);
-            };
+            fiveAnim.Restart(false);
+            audioController.PlayFiveOfAKind();
+            yield return new WaitForSeconds(fiveAnim.GetAnimationDuration()); // win-line symbols wait for it
+            FiveOfAKindAnimation.SetActive(false);
         }
 
         if (socketManager.resultData.payload.lineWins.Count > 0)
@@ -405,7 +410,7 @@ public class SlotManager : MonoBehaviour
 
     private IEnumerator ShowWinLineAnimation(List<LineWin> winLines, double winAmount, bool oneShot = false)
     {
-        audioController.PlayWinLineIntro();
+        PlayLineWinSound(winLines[0]);
         uiManager.UpdateWin(winAmount, true);
         uiManager.UpdateBalance(uiManager.currentBalance + winAmount, true);
 
@@ -451,6 +456,14 @@ public class SlotManager : MonoBehaviour
                 winAnimationImages[j].slotImages[k].gameObject.SetActive(false);
                 SetResultImageVisible(_resultImages[j].slotImages[k], true);
             }
+        }
+
+        HideWinLineObjects();
+        foreach (var line in winLines)
+        {
+            GameObject lineObj = WinLines[line.lineIndex];
+            lineObj.SetActive(true);
+            lineObj.GetComponent<ImageAnimation>().StartAnimation();
         }
 
         winAmountBigText.gameObject.SetActive(true);
@@ -554,6 +567,7 @@ public class SlotManager : MonoBehaviour
                     PlayWinSymbolAnimation(row, col, symbolID);
                 }
                 audioController.PlayPaylineHighlight();
+                PlayLineWinSound(winLines[i]);
 
                 foreach (var linewinText in lineWinTexts)
                 {
@@ -569,6 +583,19 @@ public class SlotManager : MonoBehaviour
                 yield return new WaitForSeconds(2.4f);
             }
         }
+    }
+
+    // Wild on the line -> wild win, else the sound of the line's first non-wild symbol.
+    private void PlayLineWinSound(LineWin line)
+    {
+        bool hasWild = false;
+        int symbolId = -1;
+        foreach (var pos in line.matchedPositions)
+        {
+            if (_wildCells.ContainsKey((pos.col, pos.row))) hasWild = true;
+            else if (symbolId < 0) symbolId = int.Parse(socketManager.resultData.matrix[pos.row][pos.col]);
+        }
+        audioController.PlaySymbolWin(symbolId, hasWild);
     }
 
     // Shows the win-line animation for one slot, shared by ShowCombinedWinLinesHighlight and
@@ -619,6 +646,7 @@ public class SlotManager : MonoBehaviour
         yield return new WaitForSeconds(maxDuration);
 
         maxDuration = 0f;
+        if (valid.Count > 0) audioController.PlayWildExplosion();
         foreach (var explosion in valid)
         {
             TriggerPosition t = explosion.triggerPosition;
@@ -664,8 +692,7 @@ public class SlotManager : MonoBehaviour
     {
         anim.gameObject.SetActive(true);
         anim.SetSkeletonData(asset);
-        anim.Stop();
-        anim.Play(false);
+        anim.Restart(false);
         return anim.GetAnimationDuration();
     }
 

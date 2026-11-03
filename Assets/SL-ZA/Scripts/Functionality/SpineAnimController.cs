@@ -44,6 +44,19 @@ public class SpineAnimController : MonoBehaviour
         }
     }
 
+    // Restart from frame 0 on a clean setup pose and render it now, so a replay never flashes the previous run's last frame
+    internal void Restart(bool loop)
+    {
+        var sg = SkeletonGraphic;
+        if (!sg.IsValid) sg.Initialize(false);
+        sg.AnimationState.ClearTracks();
+        sg.Skeleton.SetToSetupPose();
+        isPlaying = false;
+        Play(loop);
+        sg.Update(0f);
+        sg.UpdateMesh();
+    }
+
     internal void Pause()
     {
         if (skeletonGraphic == null)

@@ -8,7 +8,7 @@ internal class AudioController : MonoBehaviour
     [SerializeField] private AudioSource sfxSource;        // every other one-shot SFX, via PlayOneShot so they layer instead of cutting each other off
 
     [Header("Background")]
-    [SerializeField] private AudioClip bgMusic; // bg.mp3
+    [SerializeField] private AudioClip bgMusic; // bg music.mp3
 
     [Header("Reel Sounds")]
     [SerializeField] private AudioClip reelSpinning;   // reel spining.mp3
@@ -22,29 +22,18 @@ internal class AudioController : MonoBehaviour
     [SerializeField] private AudioClip autoplaySelect;  // hold for auto numbers select.mp3
 
     [Header("Win Line Sounds")]
-    [SerializeField] private AudioClip winLineIntro;      // icons in machine.mp3 — one-shot at the start of a win line display
     [SerializeField] private AudioClip paylineHighlight;  // paylines in slot.mp3 — plays as each line is cycled through
 
-    [Header("Free Spins")]
-    [SerializeField] private AudioClip scatterTrigger;      // roulette scatter.mp3
+    [Header("Symbol Win Sounds")]
+    [SerializeField] private AudioClip wildWin;   // wild win.mp3 — any line containing a wild
+    [SerializeField] private AudioClip dogWin;    // dog win.mp3 — dog (4)
+    [SerializeField] private AudioClip zombieWin; // zombie win.mp3 — zombie dog/man/woman (5,6,7)
+    [SerializeField] private AudioClip manWin;    // manwin.mp3 — gun man, female (2,3)
+    [SerializeField] private AudioClip gunWin;    // gun win.mp3 — gun, syringe, medkit (8,0,1)
 
-    [Header("Base Win")]
-    [SerializeField] private AudioClip normalSmallWin;   // normal small win.mp3 — base-spin win too small for the Big/Huge/Mega popup
-
-    [Header("Ludo Bonus Board")]
-    [SerializeField] private AudioClip diceJump;          // dice jump.mp3
-    [SerializeField] private AudioClip ludoAddRolls;      // +2+3+4 in ludo.mp3
-    [SerializeField] private AudioClip ludoRoundEnd;      // end in ludo.mp3
-    [SerializeField] private AudioClip ludoCharacterMove; // man move ludo.mp3
-    [SerializeField] private AudioClip ludoGoldenMagic;   // man golden magic animation in ludo.mp3 — coin/vault landing shine
-
-    [Header("Character (shared: ludo board + free spins)")]
-    [SerializeField] private AudioClip characterAppear;  // man appear.mp3 — pop_left
-    [SerializeField] private AudioClip characterSmoke;   // man smoke.mp3 — action_left
-
-    [Header("Golden Multiplier / Red Monopoly")]
-    [SerializeField] private AudioClip monopolyChange;     // man x2.mp3 — symbol-0 to Red Monopoly conversion animation
-    [SerializeField] private AudioClip monopolyWinReveal;  // purple box in slot win.mp3 — Red Monopoly win-line highlight
+    [Header("Features")]
+    [SerializeField] private AudioClip wildExplosion; // wild.mp3 — syringe/medkit blast turning cells wild
+    [SerializeField] private AudioClip fiveOfAKind;   // 5 of kind in or out.wav
 
     private bool isGameMuted = false;
     private bool isMusicMuted = false;
@@ -145,19 +134,9 @@ internal class AudioController : MonoBehaviour
         PlaySfx(autoplaySelect);
     }
 
-    internal void PlayWinLineIntro()
-    {
-        PlaySfx(winLineIntro);
-    }
-
     internal void PlayPaylineHighlight()
     {
         PlaySfx(paylineHighlight);
-    }
-
-    internal void PlayScatterTrigger()
-    {
-        PlaySfx(scatterTrigger);
     }
 
     internal void PlayFreeSpinsWon()
@@ -170,54 +149,26 @@ internal class AudioController : MonoBehaviour
         //PlaySfx(freeSpinsWinAmount);
     }
 
-    internal void PlayNormalSmallWin()
+    internal void PlayWildExplosion()
     {
-        PlaySfx(normalSmallWin);
+        PlaySfx(wildExplosion);
     }
 
-    internal void PlayDiceJump()
+    internal void PlayFiveOfAKind()
     {
-        PlaySfx(diceJump);
+        PlaySfx(fiveOfAKind);
     }
 
-    internal void PlayLudoAddRolls()
+    internal void PlaySymbolWin(int symbolId, bool hasWild)
     {
-        PlaySfx(ludoAddRolls);
-    }
-
-    internal void PlayLudoRoundEnd()
-    {
-        PlaySfx(ludoRoundEnd);
-    }
-
-    internal void PlayLudoCharacterMove()
-    {
-        PlaySfx(ludoCharacterMove);
-    }
-
-    internal void PlayLudoGoldenMagic()
-    {
-        PlaySfx(ludoGoldenMagic);
-    }
-
-    internal void PlayCharacterAppear()
-    {
-        PlaySfx(characterAppear);
-    }
-
-    internal void PlayCharacterSmoke()
-    {
-        PlaySfx(characterSmoke);
-    }
-
-    internal void PlayMonopolyChange()
-    {
-        PlaySfx(monopolyChange);
-    }
-
-    internal void PlayMonopolyWinReveal()
-    {
-        PlaySfx(monopolyWinReveal);
+        if (hasWild) { PlaySfx(wildWin); return; }
+        switch (symbolId)
+        {
+            case 4: PlaySfx(dogWin); break;
+            case 5: case 6: case 7: PlaySfx(zombieWin); break;
+            case 2: case 3: PlaySfx(manWin); break;
+            case 0: case 1: case 8: PlaySfx(gunWin); break;
+        }
     }
 
     // Stop-and-replace — only for the reel spin loop and its stop hit, where interrupting the
