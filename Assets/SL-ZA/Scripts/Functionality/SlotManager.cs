@@ -332,12 +332,13 @@ public class SlotManager : MonoBehaviour
             }
         }
 
-        if (_isTurboOn)
+        bool isTurbo = currentSpinSpeed == SpinSpeed.Turbo;
+        if (currentSpinSpeed == SpinSpeed.QuickSpin)
         {
             _stopSpinToggle = true;
         }
 
-        if (!_stopSpinToggle)
+        if (!_stopSpinToggle && !isTurbo)
         {
             for (int i = 0; i < _numberOfSlots; i++)
             {
@@ -349,9 +350,10 @@ public class SlotManager : MonoBehaviour
         for (int i = 0; i < _numberOfSlots; i++)
         {
 
-            yield return StopTweening(_slotTransforms[i], i, _stopSpinToggle);
+            yield return StopTweening(_slotTransforms[i], i, _stopSpinToggle || isTurbo);
 
             audioController.PlayReelStop();
+            if (isTurbo && !_stopSpinToggle) yield return new WaitForSeconds(0.08f); // turbo: quick left→right stagger
         }
         isTweening = false;
         _stopSpinToggle = false;

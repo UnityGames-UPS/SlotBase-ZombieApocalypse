@@ -6040,7 +6040,7 @@ MonoBehaviour:
   manWin: {fileID: 8300000, guid: 05fc0e3f5b8dd492eb5cbaee2dad0bfb, type: 3}
   gunWin: {fileID: 8300000, guid: 82191e257fc48460eb9aa213f9135e12, type: 3}
   wildExplosion: {fileID: 8300000, guid: 1ac2c512be99d44569f38799e01a9e86, type: 3}
-  fiveOfAKind: {fileID: 8300000, guid: e6a0d89020fc84f7c9d76e45a082cb2d, type: 3}
+  fiveOfAKind: {fileID: 8300000, guid: 36cb5917582b040519258bd05ee46770, type: 3}
 --- !u!82 &216658444
 AudioSource:
   m_ObjectHideFlags: 0
@@ -24306,7 +24306,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  skeletonDataAsset: {fileID: 11400000, guid: 06d271249e81841ffac484265806fc82, type: 2}
+  skeletonDataAsset: {fileID: 0}
   additiveMaterial: {fileID: 0}
   multiplyMaterial: {fileID: 0}
   screenMaterial: {fileID: 0}
@@ -31284,7 +31284,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  skeletonDataAsset: {fileID: 11400000, guid: 06d271249e81841ffac484265806fc82, type: 2}
+  skeletonDataAsset: {fileID: 0}
   additiveMaterial: {fileID: 0}
   multiplyMaterial: {fileID: 0}
   screenMaterial: {fileID: 0}
@@ -49083,7 +49083,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  skeletonDataAsset: {fileID: 11400000, guid: 06d271249e81841ffac484265806fc82, type: 2}
+  skeletonDataAsset: {fileID: 0}
   additiveMaterial: {fileID: 0}
   multiplyMaterial: {fileID: 0}
   screenMaterial: {fileID: 0}
